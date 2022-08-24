@@ -85,8 +85,15 @@ const Home = () => (
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
           product called{' '}
+          <NextLink href="/works/inkdrop" passHref scroll={false}>
+            <Link>Inkdrop</Link>
+          </NextLink>
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
+          <NextLink href="https://www.youtube.com/devaslife" passHref>
+            <Link target="_blank">Dev as Life</Link>
+          </NextLink>
+          &quot; has more than 100k subscribers.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -215,7 +222,7 @@ const Home = () => (
         </Box>
       </Section>
     </Container>
-  </Layout >
+  </Layout>
 )
 
 export default Home
