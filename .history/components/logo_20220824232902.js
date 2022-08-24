@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Langdon Lin
+            Takuya Matsuyama
           </Text>
         </LogoBox>
       </a>

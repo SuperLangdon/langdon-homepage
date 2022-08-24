@@ -17,13 +17,13 @@ const Main = ({ children, router }) => {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="澜璒" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@CyberLangdon" />
-        <meta name="twitter:creator" content="@CyberLangdon" />
-        <meta name="twitter:image" content="https://langdon.one/card.png" />
+        <meta name="twitter:site" content="@craftzdog" />
+        <meta name="twitter:creator" content="@craftzdog" />
+        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
         <meta property="og:site_name" content="Langdon Lin" />
         <meta name="og:title" content="Langdon Lin" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://langdon.one/card.png" />
+        <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <title>Langdon Lin - Homepage</title>
       </Head>
 
