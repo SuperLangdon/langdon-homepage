@@ -85,14 +85,14 @@ const Home = () => (
           channel called &quot;
         </Paragraph>
         <Box align="left" my={4}>
-          <Link href="https://blog.langdon.one" passHref scroll={false}>
-            <Button rightIcon={<IoLogoWordpress />} colorScheme="teal">
+          <Link href="https://500px.com/p/craftzdog" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Blog
             </Button>
           </Link>
         </Box>
         <Box align="right" my={4}>
-          <Link href="hhttps://t.me/infinityspacechannel" passHref scroll={false}>
+          <Link href="https://500px.com/p/craftzdog" passHref scroll={false}>
             <Button rightIcon={<IoPaperPlaneSharp />} colorScheme="teal">
               My Channel
             </Button>

@@ -92,7 +92,7 @@ const Home = () => (
           </Link>
         </Box>
         <Box align="right" my={4}>
-          <Link href="hhttps://t.me/infinityspacechannel" passHref scroll={false}>
+          <Link href="https://500px.com/p/craftzdog" passHref scroll={false}>
             <Button rightIcon={<IoPaperPlaneSharp />} colorScheme="teal">
               My Channel
             </Button>

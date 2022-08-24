@@ -8,14 +8,16 @@ import {
   List,
   ListItem,
   useColorModeValue,
+  Icon,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { Icon } from '@chakra-ui/react'
+
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoPaperPlaneSharp， } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -85,16 +87,16 @@ const Home = () => (
           channel called &quot;
         </Paragraph>
         <Box align="left" my={4}>
-          <Link href="https://blog.langdon.one" passHref scroll={false}>
-            <Button rightIcon={<IoLogoWordpress />} colorScheme="teal">
+          <Link href="https://500px.com/p/craftzdog" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Blog
             </Button>
           </Link>
         </Box>
         <Box align="right" my={4}>
-          <Link href="hhttps://t.me/infinityspacechannel" passHref scroll={false}>
-            <Button rightIcon={<IoPaperPlaneSharp />} colorScheme="teal">
-              My Channel
+          <Link href="https://500px.com/p/craftzdog" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My Blog
             </Button>
           </Link>
         </Box>
