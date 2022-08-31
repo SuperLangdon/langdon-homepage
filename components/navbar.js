@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub, IoLogoMarkdown, IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
+import { IoLogoWechat, IoLogoMarkdown, IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -108,6 +108,19 @@ const Navbar = props => {
           >
             <IoPaperPlaneSharp />
             Channel
+          </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://langdon.one/wechatoffical"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoWechat />
+            WeChat
           </LinkItem>
         </Stack>
 
