@@ -109,19 +109,6 @@ const Navbar = props => {
             <IoPaperPlaneSharp />
             Channel
           </LinkItem>
-
-          <LinkItem
-            target="_blank"
-            href="https://github.com/SuperLangdon"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            Github
-          </LinkItem>
         </Stack>
 
 
@@ -149,7 +136,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="_blank"
                 >
                   View Source
                 </MenuItem>
