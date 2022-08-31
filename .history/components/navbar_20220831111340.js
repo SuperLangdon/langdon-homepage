@@ -112,7 +112,7 @@ const Navbar = props => {
 
           <LinkItem
             target="_blank"
-            href="https://langdon.one/wechatoffical"
+            href="https://langdon.one/publicwechat"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -120,7 +120,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoWechat />
-            WeChat
+            Official
           </LinkItem>
         </Stack>
 
