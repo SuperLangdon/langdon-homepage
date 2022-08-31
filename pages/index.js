@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoPaperPlaneSharp } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoSteam,IoLogoGithub, IoPaperPlaneSharp } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -111,7 +111,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          My Tags
         </Heading>
         <Paragraph>
           Art, Music,{' '}
@@ -161,6 +161,17 @@ const Home = () => (
                 leftIcon={<IoPaperPlaneSharp />}
               >
                 澜璒@Telegram
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://steamcommunity.com/id/superlangdon" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoSteam />}
+              >
+                GeniusLangdon@Steam
               </Button>
             </Link>
           </ListItem>
