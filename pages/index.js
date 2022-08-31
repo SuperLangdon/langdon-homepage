@@ -177,6 +177,9 @@ const Home = () => (
         </List>
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Popular posts
+            </Button>
           </NextLink>
         </Box>
       </Section>
