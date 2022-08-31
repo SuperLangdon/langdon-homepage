@@ -84,20 +84,6 @@ const Home = () => (
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
         </Paragraph>
-        <Box align="left" my={4}>
-          <Link href="https://blog.langdon.one" passHref scroll={false}>
-            <Button rightIcon={<IoLogoWordpress />} colorScheme="teal">
-              My Blog
-            </Button>
-          </Link>
-        </Box>
-        <Box align="right" my={4}>
-          <Link href="hhttps://t.me/infinityspacechannel" passHref scroll={false}>
-            <Button rightIcon={<IoPaperPlaneSharp />} colorScheme="teal">
-              My Channel
-            </Button>
-          </Link>
-        </Box>
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
