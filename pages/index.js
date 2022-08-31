@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoPaperPlaneSharp } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoSteam,IoLogoGithub, IoPaperPlaneSharp } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -25,7 +25,6 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
-
       <Box
         borderRadius="lg"
         mb={6}
@@ -40,7 +39,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Hello, I&apos; m <span id="name">Langdon</span><small>[&apos;lændən]</small>
+            Takuya Matsuyama
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -162,6 +161,17 @@ const Home = () => (
                 leftIcon={<IoPaperPlaneSharp />}
               >
                 澜璒@Telegram
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://steamcommunity.com/id/superlangdon" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoSteam />}
+              >
+                GeniusLangdon@Steam
               </Button>
             </Link>
           </ListItem>
