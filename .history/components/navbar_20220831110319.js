@@ -109,6 +109,19 @@ const Navbar = props => {
             <IoPaperPlaneSharp />
             Channel
           </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://github.com/SuperLangdon"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Github
+          </LinkItem>
         </Stack>
 
 
