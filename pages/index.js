@@ -8,7 +8,9 @@ import {
   List,
   ListItem,
   useColorModeValue,
+  chakra
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -113,9 +115,15 @@ const Home = () => (
           My Tags
         </Heading>
         <Paragraph>
-        自由撰稿人 & 创业中 | 业余开发者 & 低技术力 | 名校校友 | 无神论者 | 苏联粉 | 庇隆主义者
-        ISTP | 肥宅 | 钢笔 & 键盘 & Hi-Fi & 游戏 | 咕咕 | 越共 & 月厨 | FF14 & FGO | MI & Microsoft
-        雷军 & 姜文 | 拉妮 VIII & 莱昂纳多・达・芬奇 & 真理 | 茶理理理子 & 祖娅纳惜 | HuiXue
+          Art, Music,{' '}
+          <Link href="https://illust.odoruinu.net/" target="_blank">
+            Drawing
+          </Link>
+          , Playing Drums,{' '}
+          <Link href="https://500px.com/p/craftzdog" target="_blank">
+            Photography
+          </Link>
+          , Leica, Machine Learning
         </Paragraph>
       </Section>
 
