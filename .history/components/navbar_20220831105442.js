@@ -99,20 +99,20 @@ const Navbar = props => {
 
           <LinkItem
             target="_blank"
-            href="https://channel.langdon.one"
+            href="https://notion.langdon.one"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoPaperPlaneSharp />
-            Channel
+            <IoLogoMarkdown />
+            Notion
           </LinkItem>
 
           <LinkItem
             target="_blank"
-            href="https://github.com/SuperLangdon"
+            href="https://t.me/infinityspacechannel"
             path={path}
             display="inline-flex"
             alignItems="center"
