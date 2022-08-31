@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -152,29 +152,40 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                Langdon Lin@Github
+                @craftzdog
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/CyberLangdon" target="_blank">
+            <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                澜璒@Twitter
+                @inkdrop_app (English)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://t.me/GeniusLangdon" target="_blank">
+            <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoPaperPlaneSharp />}
+                leftIcon={<IoLogoTwitter />}
               >
-                澜璒@Telegram
+                @craftzdog (日本語)
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/craftzdog" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @craftzdog
               </Button>
             </Link>
           </ListItem>
