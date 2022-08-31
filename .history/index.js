@@ -10,7 +10,6 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -39,7 +38,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Hello, I&apos; m <span id="name">Langdon</span><small>[&apos;lændən]</small>
+            Takuya Matsuyama
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -80,7 +79,7 @@ const Home = () => (
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          product called
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
         </Paragraph>
@@ -114,11 +113,11 @@ const Home = () => (
           My Tags
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
+          Art, Music,
           <Link href="https://illust.odoruinu.net/" target="_blank">
             Drawing
           </Link>
-          , Playing Drums,{' '}
+          , Playing Drums,
           <Link href="https://500px.com/p/craftzdog" target="_blank">
             Photography
           </Link>
