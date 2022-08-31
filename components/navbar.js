@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub,IoLogoTwitter, IoLogoMarkdown, IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -73,7 +73,46 @@ const Navbar = props => {
         >
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://blog.langdon.one"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoWordpress />
+            Blog
+          </LinkItem>
+
+        <LinkItem
+            target="_blank"
+            href="https://notion.langdon.one"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoMarkdown />
+            Notion
+          </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://channel.langdon.one"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoPaperPlaneSharp />
+            Channel
+          </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://github.com/SuperLangdon"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -81,9 +120,11 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Github
           </LinkItem>
         </Stack>
+
+
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
