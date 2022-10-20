@@ -100,7 +100,7 @@ const Home = () => (
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
             <Link>my Blog</Link>
           </NextLink>
-        . Or you can also follow my{' '}
+        . Also, you can also follow my{' '}
           <NextLink href="https://t.me/sapphe1r0s" passHref scroll={false}>
             <Link>my Telegram Channel</Link>
           </NextLink>
