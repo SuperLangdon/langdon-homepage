@@ -41,7 +41,7 @@ const Home = () => (
         borderRadius="lg"
         mb={6}
 				p={3}
-        style="margin-top: 24px"
+        t={4}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
