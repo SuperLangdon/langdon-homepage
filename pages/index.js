@@ -1,6 +1,7 @@
 import NextLink from 'next/link'
 
 import {
+	Divider,
   Link,
   Container,
   Heading,
@@ -40,12 +41,11 @@ const Home = () => (
         borderRadius="lg"
         mb={6}
 				p={3}
-        t={3}
+        style="margin-top: 24px"
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        <p></p>
         Hello, I&apos;m an indie app developer based in Japan!
       </Box>
 
@@ -64,9 +64,10 @@ const Home = () => (
           textAlign="center"
         >
           <Box
-            borderColor="whiteAlpha.800"
-            borderWidth={4}
+            
             borderStyle="solid"
+            borderWidth={4}
+						borderColor={useColorModeValue('purple.300', 'orange.200')}
             w="150px"
             h="150px"
             display="inline-block"
@@ -77,12 +78,14 @@ const Home = () => (
               src="/images/langdon.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+							width="150px"
+							height="150px"
             />
           </Box>
         </Box>
       </Box>
+
+			<Divider my={6} borderColor={useColorModeValue('purple.300', 'orange.200')} />
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
@@ -109,6 +112,7 @@ const Home = () => (
 					</NextLink>
 				</Box>
       </Section>
+
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
@@ -154,12 +158,13 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
+
         <List>
           <ListItem>
             <Link href="https://github.com/SuperLangdon" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+								colorScheme={useColorModeValue('purple', 'orange')}
                 leftIcon={<IoLogoGithub />}
               >
                 Langdon Lin@Github
@@ -170,7 +175,7 @@ const Home = () => (
             <Link href="https://twitter.com/CyberLangdon" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+							colorScheme={useColorModeValue('purple', 'orange')}
                 leftIcon={<IoLogoTwitter />}
               >
                 澜璒@Twitter
@@ -181,8 +186,8 @@ const Home = () => (
             <Link href="https://t.me/GeniusLangdon" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoPaperPlaneSharp />}
+								colorScheme={useColorModeValue('purple', 'orange')}
+								leftIcon={<IoLogoInstagram />}
               >
                 澜璒@Telegram
               </Button>
@@ -192,7 +197,7 @@ const Home = () => (
             <Link href="https://steamcommunity.com/id/superlangdon" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme={useColorModeValue('purple', 'orange')}
                 leftIcon={<IoLogoSteam />}
               >
                 GeniusLangdon@Steam
@@ -202,12 +207,13 @@ const Home = () => (
         </List>
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
               Popular posts
             </Button>
           </NextLink>
         </Box>
       </Section>
+			<Divider my={6} borderColor={useColorModeValue('purple.300', 'orange.200')} />
     </Container>
   </Layout >
 )
