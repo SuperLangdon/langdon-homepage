@@ -112,21 +112,12 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                <NextLink href="https://blog.langdon.one" passHref>
+                  <MenuItem as={Link}>Blog</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                <NextLink href="https://channel.langdon.one" passHref>
+                  <MenuItem as={Link}>Channel</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="_blank"
-                >
-                  View Source
-                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
