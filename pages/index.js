@@ -115,25 +115,20 @@ const Home = () => (
 
         <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Skills Tree
+          Environment
         </Heading>
         <BioSection>
-          <BioYear>Music</BioYear>
-          Sing, Remix, Play Violin.
+          <BioYear>System</BioYear>
+          Windows 10 & 11\Deepin Linux 23\iOS 15 & 16\Android12 & 13
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>Devices</BioYear>
+          Keyboard - Akko 3108<br />
+          Mouse - Logitech G304<br />
+          Monitor - LG 27GL850<br />
+          Laptop - Clevo NH50<br />
+          Phone - Xiaomi MI 10<br />
+          Tablet - iPad 8th Gen<br />
         </BioSection>
       </Section>
 
