@@ -134,7 +134,7 @@ const Home = () => (
 								colorScheme={useColorModeValue('purple', 'orange')}
                 leftIcon={<IoLogoGithub />}
               >
-                Langdon Lin@Github
+                SuperLangdon@Github
               </Button>
             </Link>
           </ListItem>
