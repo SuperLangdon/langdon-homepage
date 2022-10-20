@@ -1,39 +1,49 @@
 import Link from 'next/link'
-import { Text, useColorModeValue } from '@chakra-ui/react'
+import { Text, Flex, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
-const LogoBox = styled.span`
+const LogoBox = styled(Text)`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24;
   display: inline-flex;
   align-items: center;
-  height: 30px;
   line-height: 20px;
   padding: 10px;
 
-  img {
+  .logo {
     transition: 200ms ease;
   }
 
-  &:hover img {
-    transform: rotate(20deg);
+	&:hover .dollar {
+		transform: translateX(-15px) rotate(-90deg) scale(1.2);
+	}
+
+  &:hover .left-bracket {
+    transform: scale(1.2) translateX(-4px);
+  }
+
+  &:hover .right-bracket {
+    transform: scale(1.2) translateX(4px);
   }
 `
 
 const Logo = () => {
-
   return (
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
+					<Flex direction="row" gap={1}>
+						<Text className="logo dollar" color={useColorModeValue('purple.600' ,'orange.200')}>&#36;</Text>
+						<Text className="logo left-bracket" color={useColorModeValue('purple.500' ,'orange.200')}>&#123;</Text>
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='M PLUS Rounded 1c", sans-serif'
+							fontFamily='Share Tech'
             fontWeight="bold"
-            ml={3}
           >
-            Langdon Lin
+							fraso
           </Text>
+						<Text className="logo right-bracket" color={useColorModeValue('purple.500' ,'orange.200')}>&#125;</Text>
+					</Flex>
         </LogoBox>
       </a>
     </Link>
