@@ -152,7 +152,7 @@ const Home = () => (
           </NextLink>
         , leave a comment on my{' '}
           <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
-            <Link>blog's message board</Link>
+            <Link>blog&apos;s message board</Link>
           </NextLink>
         , or find my other contact information in the On the web section.
         </Paragraph>
