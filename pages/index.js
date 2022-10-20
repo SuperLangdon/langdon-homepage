@@ -36,7 +36,7 @@ const Quote = styled(Text)`
 
 const Home = () => (
   <Layout>
-    <Container>
+		<Container maxW="container.md">
       <Box
         borderRadius="lg"
         mb={6}
