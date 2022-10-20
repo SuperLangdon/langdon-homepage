@@ -46,13 +46,13 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hi there, I&apos;m Langdon, an amateur developer by interest.
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Hello, I&apos; m <span id="name">Langdon</span><small>[&apos;lændən]</small>
+        <Heading as="h2" variant="page-title">
+            Langdon Lin（“澜璒”）
           </Heading>
 					<p>Student in Software Engineering | Developer | Tech enthusiast</p>
 					<Quote>&ldquo;Arranging 0&apos;s and 1&apos;s in the exact right order.&rdquo;</Quote>
@@ -64,7 +64,6 @@ const Home = () => (
           textAlign="center"
         >
           <Box
-            
             borderStyle="solid"
             borderWidth={4}
 						borderColor={useColorModeValue('purple.300', 'orange.200')}
