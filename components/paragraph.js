@@ -5,7 +5,7 @@ const Paragraph = styled.p`
   text-indent: 1em;
   hyphens: auto;
   font-family: 'Noto Serif HK';
-  font-weight: normal;
+  font-weight: regular;
 `
 
 export default Paragraph

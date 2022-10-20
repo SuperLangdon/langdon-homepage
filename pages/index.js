@@ -27,9 +27,9 @@ const ProfileImage = chakra(Image, {
 })
 
 const Quote = styled(Text)`
-	font-size: 30px;
+	font-size: 24px;
 	font-family: 'Noto Serif HK';
-	font-weight: normal;
+	font-weight: regular;
 	text-align: center;
 	margin-top: 1.5em;
 `
@@ -54,7 +54,7 @@ const Home = () => (
         <Heading as="h2" variant="page-title">
             Langdon Lin（“澜璒”）
           </Heading>
-					<p>业余开发者 | 讲师 | 独立撰稿人</p>
+					<p>Amateur developer | Lecture | Independent Writer</p>
 					<Quote>&ldquo;而浮生若梦，为欢几何？&rdquo;</Quote>
         </Box>
         <Box
