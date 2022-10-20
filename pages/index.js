@@ -55,7 +55,7 @@ const Home = () => (
             Langdon Lin（“澜璒”）
           </Heading>
 					<p>Student in Software Engineering | Developer | Tech enthusiast</p>
-					<Quote>&ldquo;Arranging 0&apos;s and 1&apos;s in the exact right order.&rdquo;</Quote>
+					<Quote>&ldquo;而浮生若梦，为欢几何？&rdquo;</Quote>
         </Box>
         <Box
           flexShrink={0}
