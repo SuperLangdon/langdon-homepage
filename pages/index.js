@@ -112,30 +112,6 @@ const Home = () => (
         </Paragraph>
         </Section>
 
-        <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
-        </BioSection>
-      </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Tags
@@ -170,6 +146,17 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
               >
                 澜璒@Twitter
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://t.me/GeniusLangdon" target="_blank">
+              <Button
+                variant="ghost"
+								colorScheme={useColorModeValue('purple', 'orange')}
+								leftIcon={<IoPaperPlaneSharp />}
+              >
+                澜璒@Telegram
               </Button>
             </Link>
           </ListItem>
