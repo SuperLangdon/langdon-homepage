@@ -187,7 +187,7 @@ const Home = () => (
               <Button
                 variant="ghost"
 								colorScheme={useColorModeValue('purple', 'orange')}
-								leftIcon={<IoLogoInstagram />}
+								leftIcon={<IoPaperPlaneSharp />}
               >
                 澜璒@Telegram
               </Button>
