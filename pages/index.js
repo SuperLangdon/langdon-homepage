@@ -96,11 +96,15 @@ const Home = () => (
         <Paragraph>
         I am an amateur developer, lecturer and independent writer.  Now based in China,
         working in a university. In my spare time, I observe the world and put them into
-        articles, as you can see in my {' '}
+        articles, as you can see in {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
-            <Link>blog</Link>
+            <Link>my Blog</Link>
           </NextLink>
-        .</Paragraph>
+        . Or you can also follow my{' '}
+          <NextLink href="https://t.me/sapphe1r0s" passHref scroll={false}>
+            <Link>my Telegram Channel</Link>
+          </NextLink>
+        . However, these are all in Chinese.</Paragraph>
         <Paragraph>
         Other than that, I working on some projects use my spare time from time to time,
         like planning and designing in my way to solving real-life problems with code, but
@@ -148,13 +152,13 @@ const Home = () => (
         <Paragraph>
         {' '}
           <NextLink href="mailto:email@langdon.one" passHref scroll={false}>
-            <Link>Send me an email</Link>
+            <Link>Send me an Email</Link>
           </NextLink>
-        , leave a comment on my{' '}
+        , leave a comment on {' '}
           <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
-            <Link>blog&apos;s message board</Link>
+            <Link>my Blog&apos;s message board</Link>
           </NextLink>
-        , or find my other contact information in the On the web section.
+        , or find more of my contact information at On the web section. Please use Chinese & English when you contact me.
         </Paragraph>
       </Section>
 
