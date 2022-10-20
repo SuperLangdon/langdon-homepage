@@ -91,8 +91,6 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&apos;澜璒&apos;</strong> on the web.
-          <br/>
-
           I am an amateur developer, lecturer and independent writer.  Now based in China,
         working in a university. In my spare time, I observe the world and put them into
         articles, as you can see in my {' '}
@@ -100,15 +98,11 @@ const Home = () => (
             <Link>blog</Link>
           </NextLink>
         .
-        <br/>
-
           Other than that, I working on some projects use my spare time from time to time,
         like planning and designing in my way to solving real-life problems with code, but
         most of them are now in private. Of course, I will consider opensourse them at the
         right moment, if they can be of any help to others. My development ability is not good
         because I majored in literature, so please forgive me if I made any naive mistakes.
-        <br/>
-
           When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot; .
         </Paragraph>
         </Section>
