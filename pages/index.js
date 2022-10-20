@@ -103,7 +103,7 @@ const Home = () => (
         most of them are now in private. Of course, I will consider opensourse them at the
         right moment, if they can be of any help to others. My development ability is not good
         because I majored in literature, so please forgive me if I made any naive mistakes.
-        When I'm not online, I like reading and writing, indulging in my own &quot; InfinitySpace &quot; .
+        When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot; .
         </Paragraph>
         </Section>
 
