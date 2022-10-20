@@ -88,7 +88,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Bio
         </Heading>
         <Paragraph>
         Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&apos;澜璒&apos;</strong> on the web.
@@ -98,7 +98,7 @@ const Home = () => (
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
             <Link>blog</Link>
           </NextLink>
-        other than that, i working on some projects use my spare time from time to time,
+        . other than that, i working on some projects use my spare time from time to time,
         like planning and designing in my way to solving real-life problems with code, but
         most of them are now in private. Of course, I will consider opensourse them at the
         right moment, if they can be of any help to others. My development ability is not good
