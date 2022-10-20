@@ -44,6 +44,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
+        <p></p>
         Hello, I&apos;m an indie app developer based in Japan!
       </Box>
 
