@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashOutline } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashSharp } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from "@emotion/styled"
 
@@ -201,7 +201,7 @@ const Home = () => (
               <Button
                 variant="ghost"
 								colorScheme={useColorModeValue('purple', 'orange')}
-								leftIcon={<IoCodeSlashOutline />}
+								leftIcon={<IoCodeSlashSharp />}
               >
                 CyberLangdon@V2EX
               </Button>
