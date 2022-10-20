@@ -39,7 +39,7 @@ const Home = () => (
       <Box
         borderRadius="lg"
         mb={6}
-        p={3}
+        p={6}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
@@ -64,7 +64,7 @@ const Home = () => (
         >
           <Box
             borderColor="whiteAlpha.800"
-            borderWidth={2}
+            borderWidth={4}
             borderStyle="solid"
             w="100px"
             h="100px"
