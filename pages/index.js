@@ -40,8 +40,8 @@ const Home = () => (
       <Box
         borderRadius="lg"
         mb={6}
+        mt={6}
 				p={3}
-        t={4}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
