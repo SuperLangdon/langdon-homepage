@@ -45,7 +45,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi there, I&apos;m Langdon, an amateur developer by interest.
+        Hi there, I&apos;m Langdon, an amateur developer, lecturer and independent writer.
       </Box>
 
       <Box display={{ md: 'flex' }}>
