@@ -118,11 +118,11 @@ const Home = () => (
           Environment
         </Heading>
         <BioSection>
-          <BioYear>System</BioYear>
+          <BioYear>System</BioYear><br />
           Windows 10 & 11\Deepin Linux 23\iOS 15 & 16\Android12 & 13
         </BioSection>
         <BioSection>
-          <BioYear>Devices</BioYear>
+          <BioYear>Devices</BioYear><br />
           Keyboard - Akko 3108<br />
           Mouse - Logitech G304<br />
           Monitor - LG 27GL850<br />
