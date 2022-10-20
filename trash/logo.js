@@ -28,26 +28,26 @@ const LogoBox = styled(Text)`
 `
 
 const Logo = () => {
-  return (
-    <Link href="/" scroll={false}>
-      <a>
-        <LogoBox>
+	return (
+		<Link href="/" scroll={false}>
+			<a>
+				<LogoBox>
 					<Flex direction="row" gap={1}>
 						<Text className="logo dollar" color={useColorModeValue('purple.600' ,'orange.200')}>&#36;</Text>
 						<Text className="logo left-bracket" color={useColorModeValue('purple.500' ,'orange.200')}>&#123;</Text>
-          <Text
-            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+						<Text
+							color={useColorModeValue('gray.800', 'whiteAlpha.900')}
 							fontFamily='Share Tech'
-            fontWeight="bold"
-          >
+							fontWeight="bold"
+						>
 							fraso
-          </Text>
+						</Text>
 						<Text className="logo right-bracket" color={useColorModeValue('purple.500' ,'orange.200')}>&#125;</Text>
 					</Flex>
-        </LogoBox>
-      </a>
-    </Link>
-  )
+				</LogoBox>
+			</a>
+		</Link>
+	)
 }
 
 export default Logo
