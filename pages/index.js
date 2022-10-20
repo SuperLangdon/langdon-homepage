@@ -100,11 +100,11 @@ const Home = () => (
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
             <Link>my Blog</Link>
           </NextLink>
-        . Also, you can also follow my{' '}
+        . Also, you can follow {' '}
           <NextLink href="https://t.me/sapphe1r0s" passHref scroll={false}>
             <Link>my Telegram Channel</Link>
           </NextLink>
-        . However, these are all in Chinese.</Paragraph>
+          to see something more interesting. However, these are all in Chinese.</Paragraph>
         <Paragraph>
         Other than that, I working on some projects use my spare time from time to time,
         like planning and designing in my way to solving real-life problems with code, but
