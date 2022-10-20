@@ -27,7 +27,7 @@ const ProfileImage = chakra(Image, {
 })
 
 const Quote = styled(Text)`
-	font-size: 16px;
+	font-size: 30px;
 	font-family: 'ZCOOL XiaoWei';
 	font-weight: normal;
 	text-align: center;
