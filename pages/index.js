@@ -28,7 +28,7 @@ const ProfileImage = chakra(Image, {
 
 const Quote = styled(Text)`
 	font-size: 30px;
-	font-family: 'ZCOOL XiaoWei';
+	font-family: 'Noto Serif HK';
 	font-weight: normal;
 	text-align: center;
 	margin-top: 1.5em;
@@ -54,7 +54,7 @@ const Home = () => (
         <Heading as="h2" variant="page-title">
             Langdon Lin（“澜璒”）
           </Heading>
-					<p>Student in Software Engineering | Developer | Tech enthusiast</p>
+					<p>Amateur developer | Lecture | Independent Writer</p>
 					<Quote>&ldquo;而浮生若梦，为欢几何？&rdquo;</Quote>
         </Box>
         <Box
@@ -100,17 +100,6 @@ const Home = () => (
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
         </Paragraph>
-				<Box align="right" my={4}>
-					<NextLink href="/works" passHref scroll={false}>
-						<Button
-							colorScheme={useColorModeValue('purple', 'orange')}
-							rightIcon={<ChevronRightIcon />}
-						>
-							Visit my portfolio
-						</Button>
-					</NextLink>
-				</Box>
-      </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
@@ -197,9 +186,9 @@ const Home = () => (
           </ListItem>
         </List>
         <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
+          <NextLink href="https://blog.langdon.one/index.php/archives.html" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
-              Popular posts
+              Read my posts
             </Button>
           </NextLink>
         </Box>
