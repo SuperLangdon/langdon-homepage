@@ -40,7 +40,7 @@ const Logo = () => {
 							fontFamily='Share Tech'
 							fontWeight="bold"
 						>
-							fraso
+							Langdon
 						</Text>
 						<Text className="logo right-bracket" color={useColorModeValue('purple.500' ,'orange.200')}>&#125;</Text>
 					</Flex>
