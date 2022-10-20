@@ -1,7 +1,6 @@
 import NextLink from 'next/link'
 
 import {
-	Divider,
   Link,
   Container,
   Heading,
