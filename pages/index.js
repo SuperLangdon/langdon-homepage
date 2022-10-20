@@ -54,7 +54,7 @@ const Home = () => (
         <Heading as="h2" variant="page-title">
             Langdon Lin（“澜璒”）
           </Heading>
-					<p>Amateur developer | Lecture | Independent Writer</p>
+					<p>业余开发者 | 讲师 | 独立撰稿人</p>
 					<Quote>&ldquo;而浮生若梦，为欢几何？&rdquo;</Quote>
         </Box>
         <Box
