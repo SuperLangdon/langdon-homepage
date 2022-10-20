@@ -94,7 +94,7 @@ const Home = () => (
         Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&apos;澜璒&apos;</strong> on the web.
         </Paragraph>
         <Paragraph>
-        I am an amateur developer, lecturer and independent writer.  Now based in China,
+        I&apos;m an amateur developer, lecturer, and independent writer.  Now based in China,
         working in a university. In my spare time, I observe the world and put them into
         articles, as you can see in {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
@@ -106,17 +106,17 @@ const Home = () => (
           </NextLink>
           to see something not that serious. However, these are all in Chinese.</Paragraph>
         <Paragraph>
-        Other than that, I working on some projects use my spare time from time to time,
-        like planning and designing in my way to solving reallife problems with code, but
-        most of them are now in private. Of course, I will consider opensourse them at the
-        right moment, if they can be of any help to others. My development ability is not good
-        because I majored in literature, so please forgive me if I made any naive mistakes.
+        Other than that, I work on some projects using my spare time from time to time
+        , like planning and designing in my way to solving real-life problems with code
+        , but most of them are now in private. Of course, I will consider opensource them
+        at the right moment, if they can be of any help to others. My development ability
+        is not good because I majored in literature, so please forgive me if I made any naive mistakes.
         </Paragraph>
         <Paragraph>
-        When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot; .
+        When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot;.
         </Paragraph>
         <Paragraph>
-        There may be some grammatical incorrect on this page, for the sake of my much lesser use of English, never mind that:&#41;.
+        Finally, I&apos;m glad you were able to read this lengthy biography and please allow me to express my gratitude to you &#58; &#41;
         </Paragraph>
         </Section>
 
