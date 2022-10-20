@@ -52,10 +52,10 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
         <Heading as="h2" variant="page-title">
-            Langdon Lin &#40;&ldquo;澜璒&ldquo;&#41;
+            Langdon Lin &#40;&ldquo;澜璒&rdquo;&#41;
           </Heading>
 					<p>Amateur developer | Lecture | Independent Writer</p>
-					<Quote>&ldquo; 而浮生若梦，为欢几何&#65311; &ldquo;</Quote>
+					<Quote>&ldquo; 而浮生若梦，为欢几何&#65311; &rdquo;</Quote>
         </Box>
         <Box
           flexShrink={0}
