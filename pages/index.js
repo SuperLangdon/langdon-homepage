@@ -28,8 +28,8 @@ const ProfileImage = chakra(Image, {
 
 const Quote = styled(Text)`
 	font-size: 16px;
-	font-family: 'Libre Baskerville';
-	font-weight: bold;
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: normal;
 	text-align: center;
 	margin-top: 1.5em;
 `

@@ -37,8 +37,8 @@ const Logo = () => {
 						<Text className="logo left-bracket" color={useColorModeValue('purple.500' ,'orange.200')}>&#123;</Text>
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-							fontFamily='Share Tech'
-            fontWeight="bold"
+							fontFamily='DotGothic16'
+            fontWeight="normal"
           >
 							Langdon
           </Text>
