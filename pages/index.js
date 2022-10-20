@@ -91,14 +91,19 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
+        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>澜璒</strong> on the web.
+        I am an amateur developer, lecturer and independent writer.  Now based in China,
+        working in a university. In my spare time, I observe the world and put them into
+        articles , as you can see in my {' '}
+          <NextLink href="https://blog.langdon.one" passHref scroll={false}>
+            <Link>blog</Link>
+          </NextLink>
+        other than that, i working on some projects use my spare time from time to time,
+        like planning and designing in my way to solving real-life problems with code, but
+        most of them are now in private. Of course, I will consider opensourse them at the
+        right moment, if they can be of any help to others. My development ability is not good
+        because I majored in literature, so please forgive me if I made any naive mistakes.
+        When I'm not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot;.
         </Paragraph>
         </Section>
 
