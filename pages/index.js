@@ -111,6 +111,7 @@ const Home = () => (
         <Paragraph>
         When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot; .
         </Paragraph>
+        </Section>
 
         <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
