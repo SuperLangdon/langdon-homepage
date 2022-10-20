@@ -132,12 +132,29 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Tags
         </Heading>
         <Paragraph>
         自由撰稿人 & 创业中 | 低技术力 | 名校校友 | 无神论者 | 贝隆主义者 | ISTP | 肥宅 | 钢笔 & 键盘 & Hi-Fi & 游戏 | 咕咕 | 强迫症患者 | 越共 & 月厨 & 鲤友 | FF14 & ESO & 云图计划 & 明日方舟 | 软粉 | 雷军 & 姜文
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+        Contact me
+        </Heading>
+        <Paragraph>
+        {' '}
+          <NextLink href="mailto:email@langdon.one" passHref scroll={false}>
+            <Link>Send me an email</Link>
+          </NextLink>
+        , leave a comment on my{' '}
+          <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
+            <Link>blog's message board</Link>
+          </NextLink>
+        , or find my other contact information in the On the web section.
         </Paragraph>
       </Section>
 
