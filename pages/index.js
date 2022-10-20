@@ -1,5 +1,7 @@
 import NextLink from 'next/link'
+
 import {
+	Divider,
   Link,
   Container,
   Heading,
@@ -7,6 +9,7 @@ import {
   Button,
   List,
   ListItem,
+	Text,
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
@@ -17,10 +20,19 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoSteam,IoLogoGithub, IoPaperPlaneSharp } from 'react-icons/io5'
 import Image from 'next/image'
+import styled from "@emotion/styled"
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
+
+const Quote = styled(Text)`
+	font-size: 16px;
+	font-family: 'Libre Baskerville';
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1.5em;
+`
 
 const Home = () => (
   <Layout>
@@ -41,7 +53,8 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Hello, I&apos; m <span id="name">Langdon</span><small>[&apos;lændən]</small>
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+					<p>Student in Software Engineering | Developer | Tech enthusiast</p>
+					<Quote>&ldquo;Arranging 0&apos;s and 1&apos;s in the exact right order.&rdquo;</Quote>
         </Box>
         <Box
           flexShrink={0}
@@ -84,6 +97,16 @@ const Home = () => (
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
         </Paragraph>
+				<Box align="right" my={4}>
+					<NextLink href="/works" passHref scroll={false}>
+						<Button
+							colorScheme={useColorModeValue('purple', 'orange')}
+							rightIcon={<ChevronRightIcon />}
+						>
+							Visit my portfolio
+						</Button>
+					</NextLink>
+				</Box>
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
