@@ -115,11 +115,11 @@ const Home = () => (
 
         <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Skills Tree
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>Music</BioYear>
+          Sing, Remix, Play Violin.
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
