@@ -102,18 +102,21 @@ const Home = () => (
           </NextLink>
         . Also, you can follow {' '}
           <NextLink href="https://t.me/sapphe1r0s" passHref scroll={false}>
-            <Link>my Telegram Channel</Link>
+            <Link>my Telegram Channel </Link>
           </NextLink>
-          to see something more interesting. However, these are all in Chinese.</Paragraph>
+          to see something not that serious. However, these are all in Chinese.</Paragraph>
         <Paragraph>
         Other than that, I working on some projects use my spare time from time to time,
-        like planning and designing in my way to solving real-life problems with code, but
+        like planning and designing in my way to solving reallife problems with code, but
         most of them are now in private. Of course, I will consider opensourse them at the
         right moment, if they can be of any help to others. My development ability is not good
         because I majored in literature, so please forgive me if I made any naive mistakes.
         </Paragraph>
         <Paragraph>
         When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot; .
+        </Paragraph>
+        <Paragraph>
+        There may be some grammatical incorrect on this page, for the sake of my much lesser use of English, never mind that:&#41;.
         </Paragraph>
         </Section>
 
