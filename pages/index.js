@@ -100,6 +100,7 @@ const Home = () => (
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
         </Paragraph>
+        </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
