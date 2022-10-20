@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoSteam,IoLogoGithub, IoPaperPlaneSharp } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashOutline } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from "@emotion/styled"
 
@@ -193,6 +193,17 @@ const Home = () => (
                 leftIcon={<IoLogoSteam />}
               >
                 GeniusLangdon@Steam
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.v2ex.com/member/CyberLangdon" target="_blank">
+              <Button
+                variant="ghost"
+								colorScheme={useColorModeValue('purple', 'orange')}
+								leftIcon={<IoCodeSlashOutline />}
+              >
+                CyberLangdon@V2EX
               </Button>
             </Link>
           </ListItem>
