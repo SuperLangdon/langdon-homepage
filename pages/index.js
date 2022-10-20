@@ -94,7 +94,7 @@ const Home = () => (
         Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&apos;澜璒&apos;</strong> on the web.
         </Paragraph>
         <Paragraph>
-        I&apos;m an amateur developer, lecturer, and independent writer.  Now based in China,
+        I&apos;m an amateur developer, lecturer, and independent writer. Now based in China,
         working in a university. In my spare time, I observe the world and put them into
         articles, as you can see in {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
