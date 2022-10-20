@@ -1,11 +1,3 @@
-/*
- * @Author: Langdon Lin langdon.lin@outlook.com
- * @Date: 2022-10-20 19:35:37
- * @LastEditors: Langdon Lin langdon.lin@outlook.com
- * @LastEditTime: 2022-10-20 19:39:57
- * @FilePath: \langdon.one-homepage\components\logo.js
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 import Link from 'next/link'
 import { Text, Flex, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
