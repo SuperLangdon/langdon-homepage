@@ -122,7 +122,7 @@ const Home = () => (
 
         <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Environment
+          Uses
         </Heading>
         <BioSection>
           <BioYear>System</BioYear><br />
@@ -157,7 +157,7 @@ const Home = () => (
           <NextLink href="mailto:email@langdon.one" passHref scroll={false}>
             <Link>Send me an Email</Link>
           </NextLink>
-        , leave a comment on {' '}
+        , leave a comment on the {' '}
           <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
             <Link>message board in my Blog</Link>
           </NextLink>
