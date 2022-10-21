@@ -91,7 +91,7 @@ const Home = () => (
           Bio
         </Heading>
         <Paragraph>
-        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&apos;澜璒&apos;</strong> on the web.
+        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> on the web.
         </Paragraph>
         <Paragraph>
         I&apos;m an amateur developer, lecturer, and independent writer. Now based in China,
@@ -161,7 +161,7 @@ const Home = () => (
           <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
             <Link>my Blog&apos;s message board</Link>
           </NextLink>
-        , or find more of my contact information at &ldquo;On the web&rdquo; section below. In order to make our communication smooth, use Chinese & English please.
+        , or find more of my contact information at &quot;On the web&quot; section below. In order to make our communication smooth, use Chinese & English please.
         </Paragraph>
       </Section>
 
