@@ -46,7 +46,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi there, I&apos;m Langdon, an amateur developer, lecturer and independent writer.
+        Hi there, I&apos;m Langdon, an amateur developer, lecturer, and independent writer.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -161,7 +161,7 @@ const Home = () => (
           <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
             <Link>my Blog&apos;s message board</Link>
           </NextLink>
-        , or find more of my contact information at On the web section. Please use Chinese & English when you contact me.
+        , or find more of my contact information at &ldquo;On the web&rdquo; section below. In order to make our communication smooth, use Chinese & English please.
         </Paragraph>
       </Section>
 
