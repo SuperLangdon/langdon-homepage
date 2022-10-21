@@ -161,7 +161,7 @@ const Home = () => (
           <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
             <Link>my Blog&apos;s message board</Link>
           </NextLink>
-        , or find more of my contact information at &quot;On the web&quot; section below. In order to make our communication smooth, use Chinese & English please.
+        , or find more of my contact information at &quot;On the web&quot; section below. To make our communication smooth, use Chinese & English please.
         </Paragraph>
       </Section>
 
