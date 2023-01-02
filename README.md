@@ -35,4 +35,4 @@ MIT License.
 
 * This is a fork of [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) from [Takuya Matsuyama](https://www.craftz.dog/).
 
-* Part of the design was inspired by [Reorx’s Forge](https://reorx.com/).
+* Any design was inspired by [Reorx’s Forge](https://reorx.com/).
