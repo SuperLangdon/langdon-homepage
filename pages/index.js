@@ -103,20 +103,27 @@ const Home = () => (
         I&apos;m currently working on my quantitative trading project.
         </Paragraph>
         <Paragraph>
-        &bull; <strong>Independent Writer</strong>
+        💵 Individual Investor
+        </Paragraph>
+        <Paragraph>
+        I have been involved in the stock market and financial derivatives since 2015, and I currently invest mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5&percnt;. Currently I am still exploring.
+        </Paragraph>
+        <Paragraph>
+        🖋 <strong>Independent Writer</strong>
         </Paragraph>
         <Paragraph>
         In my spare time, I observe the world and put them into articles, as you can see in {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
             <Link>my Blog</Link>
           </NextLink>
-          . I will write about the process and results of my practice and reflection, or what I have seen in my life or work. Some of the content is also the result of my sudden inspiration. I also write lyrics or translate some English content into Chinese.</Paragraph>
-        <Paragraph>
-        Other than that, I work on some projects using my spare time from time to time
-        , like planning and designing in my way to solving real-life problems with code
-        , but most of them are now in private. Of course, I will consider opensource them
-        at the right moment, if they can be of any help to others. My development ability
-        is not good because I majored in literature, so please forgive me if I made any naive mistakes.
+          . I will write about the process and results of my practice and reflection, or what I have seen in my life or work. Some of the content is also the result of my sudden inspiration. I also write lyrics or translate some English content into Chinese.
+          </Paragraph>
+          <Paragraph>
+          Also, you can follow my {' '}
+          <NextLink href="https://blog.langdon.one" passHref scroll={false}>
+            <Link>Telegram Channel</Link>
+          </NextLink>
+          to see something not that serious. I will broadcast what I saw while surfing on the Internet in it. However, these are all in Chinese.
         </Paragraph>
         <Paragraph>
         When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot;.
