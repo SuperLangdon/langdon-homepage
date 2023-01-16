@@ -261,7 +261,7 @@ const Home = () => (
 
         </List>
         <Box align="center" my={4}>
-          <NextLink href="https://blog.langdon.one/archives.html" passHref={true} scroll={false}>
+          <NextLink href="https://blog.langdon.one/archives.html" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
               Read my posts
             </Button>
