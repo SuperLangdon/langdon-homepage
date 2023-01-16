@@ -119,11 +119,11 @@ const Home = () => (
           . I will write about the process and results of my practice and reflection, or what I have seen in my life or work. Some of the content is also the result of my sudden inspiration. I also write lyrics or translate some English content into Chinese.
           </Paragraph>
           <Paragraph>
-          Also, you can follow my {' '}
+          Also, you can follow {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
-            <Link>Telegram Channel </Link>
+            <Link>my Telegram Channel &mdash; BLUE SAPPHIRE</Link>
           </NextLink>
-          to see something not that serious. I will broadcast what I saw while surfing on the Internet in it. However, these are all in Chinese.
+          ,to see something not that serious. I will broadcast what I saw while surfing on the Internet in it. However, these are all in Chinese.
         </Paragraph>
         <Paragraph>
         When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot;.
