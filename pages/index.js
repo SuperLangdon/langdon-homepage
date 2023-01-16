@@ -91,13 +91,13 @@ const Home = () => (
           Bio
         </Heading>
         <Paragraph>
-        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> internet. Now based in China, working in a university. I'm a:
+        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> internet. Now based in China, working in a university. I&apos;m a:
         </Paragraph>
         <Paragraph>
         &#67871; Amateur developer
         </Paragraph>
         <Paragraph>
-        I work on some projects using my spare time from time to time, like planning and designing in my way to solving reallife problems with code, but most of them are now in private. Of course, I will consider opensource them at the right moment, if they can be of any help to others. I'm relatively specialize in Javascript, but I'm learning Python now.
+        I work on some projects using my spare time from time to time, like planning and designing in my way to solving reallife problems with code, but most of them are now in private. Of course, I will consider opensource them at the right moment, if they can be of any help to others. I&apos;m relatively specialize in Javascript, and I&apos;m learning Python now.
         </Paragraph>
         <Paragraph>
         I&apos;m currently working on my quantitative trading project.
