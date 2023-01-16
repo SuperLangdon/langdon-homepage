@@ -106,7 +106,7 @@ const Home = () => (
         💵 <strong>Individual Investor</strong>
         </Paragraph>
         <Paragraph>
-        I have been involved in the stock market and financial derivatives since 2015, and I currently invest mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5&percent;. Currently I am still exploring.
+        I have been involved in the stock market and financial derivatives since 2015, and I currently invest mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5%. Currently I am still exploring.
         </Paragraph>
         <Paragraph>
         📰 <strong>Independent Writer</strong>
