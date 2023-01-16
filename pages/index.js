@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashSharp } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashSharp, IoLogoMastodon } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from "@emotion/styled"
 
@@ -203,6 +203,18 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
               >
                 澜璒@Twitter
+              </Button>
+            </Link>
+          </ListItem>
+          </ListItem>
+          <ListItem>
+            <Link href="https://o3o.ca/@sembers" target="_blank">
+              <Button
+                variant="ghost"
+							colorScheme={useColorModeValue('purple', 'orange')}
+                leftIcon={<IoLogoMastodon />}
+              >
+                余烬@Mastodon
               </Button>
             </Link>
           </ListItem>
