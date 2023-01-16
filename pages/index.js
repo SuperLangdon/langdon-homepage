@@ -138,17 +138,18 @@ const Home = () => (
           Uses
         </Heading>
         <BioSection>
-          <BioYear>System</BioYear><br />
-          Windows 10 & 11\Deepin Linux 23\iOS 15 & 16\Android12 & 13
+          <BioYear>Environment</BioYear><br />
+          Windows 10 & 11\Ubuntu 20.04\macOS Ventura\iOS 15 & 16\Android12 & 13
         </BioSection>
         <BioSection>
           <BioYear>Devices</BioYear><br />
           Keyboard - Akko 3108<br />
           Mouse - Logitech G304<br />
           Monitor - LG 27GL850<br />
-          Laptop - Clevo NH50<br />
+          Laptop -  Legion Y9000P<br />
           Phone - Xiaomi MI 10<br />
           Tablet - iPad 8th Gen<br />
+          Headphone - Sony WH-1000XM3<br />
         </BioSection>
       </Section>
 
@@ -169,10 +170,6 @@ const Home = () => (
         {' '}
           <NextLink href="mailto:email@langdon.one" passHref scroll={false}>
             <Link>Send me an Email</Link>
-          </NextLink>
-        , leave a comment on the {' '}
-          <NextLink href="https://blog.langdon.one/index.php/board.html" passHref scroll={false}>
-            <Link>message board in my Blog</Link>
           </NextLink>
         , or find more of my contact information at &quot;On the web&quot; section below. To make our communication smooth, use Chinese & English please.
         </Paragraph>
@@ -205,7 +202,6 @@ const Home = () => (
                 澜璒@Twitter
               </Button>
             </Link>
-          </ListItem>
           </ListItem>
           <ListItem>
             <Link href="https://o3o.ca/@sembers" target="_blank">
