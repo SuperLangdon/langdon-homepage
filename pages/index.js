@@ -138,11 +138,11 @@ const Home = () => (
           Uses
         </Heading>
         <BioSection>
-          <BioYear>Environment</BioYear><br />
+          <BioYear>💾 Environment</BioYear><br />
           Windows 10 & 11\Ubuntu 20.04\macOS Ventura\iOS 15 & 16\Android12 & 13
         </BioSection>
         <BioSection>
-          <BioYear>Devices</BioYear><br />
+          <BioYear>💻 Devices</BioYear><br />
           Keyboard - Akko 3108<br />
           Mouse - Logitech G304<br />
           Headphone - Sony WH-1000XM3<br />
