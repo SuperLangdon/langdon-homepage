@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoPaperPlaneSharp, IoLogoWordpress, IoTrain } from 'react-icons/io5'
+import { IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -95,19 +95,6 @@ const Navbar = props => {
           >
             <IoPaperPlaneSharp />
             Channel
-          </LinkItem>
-
-        <LinkItem
-            target="_blank"
-            href="https://travellings.link"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoTrain />
-            Travelling
           </LinkItem>
         </Stack>
 
