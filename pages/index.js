@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashSharp, IoLogoMastodon } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoSteam, IoLogoGithub, IoPaperPlaneSharp, IoCodeSlashSharp, IoLogoMastodon, IoDiamondOutline } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from "@emotion/styled"
 
@@ -247,6 +247,18 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://afdian.net/a/landeng" target="_blank">
+              <Button
+                variant="ghost"
+								colorScheme={useColorModeValue('purple', 'orange')}
+								leftIcon={<IoDiamondOutline />}
+              >
+                澜璒@爱发电
+              </Button>
+            </Link>
+          </ListItem>
+
         </List>
         <Box align="center" my={4}>
           <NextLink href="https://blog.langdon.one/index.php/archives.html" passHref scroll={false}>
