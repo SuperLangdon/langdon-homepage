@@ -94,6 +94,8 @@ const Home = () => (
         Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> on internet. Now based in China, working in a university. I&apos;m a:
         </Paragraph>
         <Paragraph>
+        </Paragraph>
+        <Paragraph>
         🛠️ <strong>Amateur developer</strong>
         </Paragraph>
         <Paragraph>
@@ -103,13 +105,17 @@ const Home = () => (
         I&apos;m currently working on my quantitative trading project.
         </Paragraph>
         <Paragraph>
-        💵 Individual Investor
+        </Paragraph>
+        <Paragraph>
+        💵 <strong>Individual Investor</strong>
         </Paragraph>
         <Paragraph>
         I have been involved in the stock market and financial derivatives since 2015, and I currently invest mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5&percnt;. Currently I am still exploring.
         </Paragraph>
         <Paragraph>
-        🖋 <strong>Independent Writer</strong>
+        </Paragraph>
+        <Paragraph>
+        📰 <strong>Independent Writer</strong>
         </Paragraph>
         <Paragraph>
         In my spare time, I observe the world and put them into articles, as you can see in {' '}
@@ -121,12 +127,16 @@ const Home = () => (
           <Paragraph>
           Also, you can follow my {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
-            <Link>Telegram Channel</Link>
+            <Link>Telegram Channel </Link>
           </NextLink>
           to see something not that serious. I will broadcast what I saw while surfing on the Internet in it. However, these are all in Chinese.
         </Paragraph>
         <Paragraph>
+        </Paragraph>
+        <Paragraph>
         When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot;.
+        </Paragraph>
+        <Paragraph>
         </Paragraph>
         <Paragraph>
         Finally, I&apos;m glad you were able to read this lengthy biography and please allow me to express my gratitude to you &#58; &#41;
