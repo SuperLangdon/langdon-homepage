@@ -94,7 +94,7 @@ const Home = () => (
         Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> on internet. Now based in China, working in a university. I&apos;m a:
         </Paragraph>
         <Paragraph>
-        &bull; <strong>Amateur developer</strong>
+        🛠️ <strong>Amateur developer</strong>
         </Paragraph>
         <Paragraph>
         I work on some projects using my spare time from time to time, like planning and designing in my way to solving reallife problems with code, but most of them are now in private. Of course, I will consider opensource them at the right moment, if they can be of any help to others. I&apos;m relatively specialize in Javascript, and I&apos;m learning Python now.
@@ -103,17 +103,14 @@ const Home = () => (
         I&apos;m currently working on my quantitative trading project.
         </Paragraph>
         <Paragraph>
-        I&apos;m an amateur developer, lecturer, and independent writer. Now based in China,
-        working in a university. In my spare time, I observe the world and put them into
-        articles, as you can see in {' '}
+        &bull; <strong>Independent Writer</strong>
+        </Paragraph>
+        <Paragraph>
+        In my spare time, I observe the world and put them into articles, as you can see in {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
             <Link>my Blog</Link>
           </NextLink>
-        . Also, you can follow {' '}
-          <NextLink href="https://t.me/sapphe1r0s" passHref scroll={false}>
-            <Link>my Telegram Channel </Link>
-          </NextLink>
-          to see something not that serious. However, these are all in Chinese.</Paragraph>
+          . I will write about the process and results of my practice and reflection, or what I have seen in my life or work. Some of the content is also the result of my sudden inspiration. I also write lyrics or translate some English content into Chinese.</Paragraph>
         <Paragraph>
         Other than that, I work on some projects using my spare time from time to time
         , like planning and designing in my way to solving real-life problems with code
