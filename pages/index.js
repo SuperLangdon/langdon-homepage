@@ -46,7 +46,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi there, I&apos;m Langdon, an amateur developer, lecturer, and independent writer.
+        Hi there, I&apos;m Langdon, an amateur developer, independent writer, and lecturer.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -54,7 +54,7 @@ const Home = () => (
         <Heading as="h2" variant="page-title">
             Langdon Lin &#40;&ldquo;澜璒&rdquo;&#41;
           </Heading>
-					<p>Amateur developer | Lecture | Independent Writer</p>
+					<p>Amateur developer | Independent Writer | lecturer</p>
 					<Quote>&ldquo; 而浮生若梦，为欢几何&#65311; &rdquo;</Quote>
         </Box>
         <Box
@@ -91,7 +91,10 @@ const Home = () => (
           Bio
         </Heading>
         <Paragraph>
-        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> on the web.
+        Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> internet. Now based in China, working in a university. I'm a:
+        </Paragraph>
+        <Paragraph>
+        &#67871; Amateur developer
         </Paragraph>
         <Paragraph>
         I&apos;m an amateur developer, lecturer, and independent writer. Now based in China,
