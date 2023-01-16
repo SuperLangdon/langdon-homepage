@@ -46,7 +46,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi there, I&apos;m Langdon, an amateur developer, independent writer, and lecturer.
+        Hi there, I&apos;m Langdon, an amateur developer, individual Investor, and independent writer.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -54,7 +54,7 @@ const Home = () => (
         <Heading as="h2" variant="page-title">
             Langdon Lin &#40;&ldquo;澜璒&rdquo;&#41;
           </Heading>
-					<p>Amateur developer | Independent Writer | lecturer</p>
+					<p>Amateur developer | Individual Investor | lecturer</p>
 					<Quote>&ldquo; 而浮生若梦，为欢几何&#65311; &rdquo;</Quote>
         </Box>
         <Box
@@ -94,8 +94,6 @@ const Home = () => (
         Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name <strong>&quot;澜璒&quot;</strong> on internet. Now based in China, working in a university. I&apos;m a:
         </Paragraph>
         <Paragraph>
-        </Paragraph>
-        <Paragraph>
         🛠️ <strong>Amateur developer</strong>
         </Paragraph>
         <Paragraph>
@@ -105,14 +103,10 @@ const Home = () => (
         I&apos;m currently working on my quantitative trading project.
         </Paragraph>
         <Paragraph>
-        </Paragraph>
-        <Paragraph>
         💵 <strong>Individual Investor</strong>
         </Paragraph>
         <Paragraph>
         I have been involved in the stock market and financial derivatives since 2015, and I currently invest mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5&percnt;. Currently I am still exploring.
-        </Paragraph>
-        <Paragraph>
         </Paragraph>
         <Paragraph>
         📰 <strong>Independent Writer</strong>
@@ -132,11 +126,7 @@ const Home = () => (
           to see something not that serious. I will broadcast what I saw while surfing on the Internet in it. However, these are all in Chinese.
         </Paragraph>
         <Paragraph>
-        </Paragraph>
-        <Paragraph>
         When I&apos;m not online, I like reading and writing, indulging in my own &quot;InfinitySpace&quot;.
-        </Paragraph>
-        <Paragraph>
         </Paragraph>
         <Paragraph>
         Finally, I&apos;m glad you were able to read this lengthy biography and please allow me to express my gratitude to you &#58; &#41;
