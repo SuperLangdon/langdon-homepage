@@ -116,9 +116,6 @@ const Navbar = props => {
                 <NextLink href="https://channel.langdon.one" passHref>
                   <MenuItem as={Link}>Channel</MenuItem>
                   </NextLink>
-                <NextLink href="https://travellings.link" passHref>
-                  <MenuItem as={Link}>Travelling</MenuItem>
-                </NextLink>
               </MenuList>
             </Menu>
           </Box>
