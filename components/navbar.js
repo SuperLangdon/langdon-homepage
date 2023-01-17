@@ -86,7 +86,7 @@ const Navbar = props => {
 
           <LinkItem
             target="_blank"
-            href="https://channel.langdon.one"
+            href="https://t.me/s/sapphe1r0s"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -113,12 +113,9 @@ const Navbar = props => {
                 <NextLink href="https://blog.langdon.one" passHref>
                   <MenuItem as={Link}>Blog</MenuItem>
                 </NextLink>
-                <NextLink href="https://channel.langdon.one" passHref>
+                <NextLink href="https://t.me/s/sapphe1r0s" passHref>
                   <MenuItem as={Link}>Channel</MenuItem>
                   </NextLink>
-                <NextLink href="https://travellings.link" passHref>
-                  <MenuItem as={Link}>Travelling</MenuItem>
-                </NextLink>
               </MenuList>
             </Menu>
           </Box>
