@@ -143,13 +143,14 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>💻 Devices</BioYear><br />
-          Keyboard - Akko 3108<br />
+          Keyboard - Akko 3108 V2<br />
           Mouse - Logitech G304<br />
-          Headphone - Sony WH-1000XM3<br />
+          Headphone - Beyerdynamic Xelento<br />
           Monitor - LG 27GL850<br />
           Laptop -  Legion Y9000P<br />
           Phone - Xiaomi MI 10<br />
           Tablet - iPad 8th Gen<br />
+          Camera - Sony Cyber-shot DSC-RX100 II<br />
         </BioSection>
       </Section>
 
