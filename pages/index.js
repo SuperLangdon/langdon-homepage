@@ -253,7 +253,7 @@ const Home = () => (
           Donate me
         </Heading>
 
-        </ListItem>
+        <List>
           <ListItem>
             <Link href="https://afdian.net/a/landeng" target="_blank">
               <Button
