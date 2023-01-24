@@ -248,11 +248,12 @@ const Home = () => (
               </Button>
             </Link>
 
-            <Section delay={0.3}>
+          <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Donate me
         </Heading>
 
+        </ListItem>
           <ListItem>
             <Link href="https://afdian.net/a/landeng" target="_blank">
               <Button
