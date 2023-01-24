@@ -247,13 +247,7 @@ const Home = () => (
                 CyberLangdon@V2EX
               </Button>
             </Link>
-
-          <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Donate me
-        </Heading>
-
-        </ListItem>
+          </ListItem>
           <ListItem>
             <Link href="https://afdian.net/a/landeng" target="_blank">
               <Button
