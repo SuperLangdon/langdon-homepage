@@ -247,7 +247,6 @@ const Home = () => (
                 CyberLangdon@V2EX
               </Button>
             </Link>
-<<<<<<< HEAD
 
           <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -255,9 +254,6 @@ const Home = () => (
         </Heading>
 
         <List>
-=======
-          </ListItem>
->>>>>>> parent of a351495 (add donate me)
           <ListItem>
             <Link href="https://afdian.net/a/landeng" target="_blank">
               <Button
