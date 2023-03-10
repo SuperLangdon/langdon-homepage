@@ -13,7 +13,7 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -260,8 +260,15 @@ const Home = () => (
             </Link>
           </ListItem>
 
+          <Heading as="h3" variant="section-title">
+          Newsletter
+        </Heading>
+        <p>
+        Join VoyagerNews - it's currently in testing. Every two weeks, I'll provide you with my insights, observations, and thoughts.
+        </p>
+
         </List>
-        <Box align="center" my={4}>
+        <Box align="left" my={4}>
           <NextLink href="https://blog.langdon.one/archives.html" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
               Read my posts
@@ -272,6 +279,21 @@ const Home = () => (
 			<Divider my={6} borderColor={useColorModeValue('purple.300', 'orange.200')} />
     </Container>
   </Layout >
+
+        </List>
+        <Box align="right" my={4}>
+          <NextLink href="superlangdon.zhubai.love" passHref scroll={false}>
+            <Button rightIcon={<EmailIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
+            Sign up my newsletter here
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+			<Divider my={6} borderColor={useColorModeValue('purple.300', 'orange.200')} />
+    </Container>
+  </Layout >
+
+
 )
 
 export default Home
