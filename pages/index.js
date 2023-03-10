@@ -133,8 +133,8 @@ const Home = () => (
         Finally, I&apos;m glad you were able to read this lengthy biography and please allow me to express my gratitude to you &#58; &#41;
         </Paragraph>
 
-        <Flex justify="center">
-        <Box align="left" my={4}>
+        <Flex justify="space-between">
+        <Box align="left" my={4} mx={16}>
           <Button
             as={NextLink}
             href="https://blog.langdon.one"
