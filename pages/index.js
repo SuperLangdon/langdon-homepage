@@ -145,7 +145,7 @@ const Home = () => (
             My Blog
           </Button>
         </Box>
-        <Box align="right" my={4}>
+        <Box align="right" my={4} mx={16}>
           <Button
             as={NextLink}
             href="https://channel.langdon.one/"
@@ -295,14 +295,14 @@ const Home = () => (
 
         </List>
         <Flex justify="space-between">
-        <Box align="left" my={4}>
+        <Box align="left" my={4} mx={16}>
           <NextLink href="https://superlangdon.zhubai.love" passHref scroll={false}>
             <Button leftIcon={<EmailIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
             Sign up my newsletter here
             </Button>
           </NextLink>
         </Box>
-        <Box align="right" my={4}>
+        <Box align="right" my={4} mx={16}>
           <NextLink href="https://blog.langdon.one/archives.html" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
               Read my posts
