@@ -132,7 +132,32 @@ const Home = () => (
         <Paragraph>
         Finally, I&apos;m glad you were able to read this lengthy biography and please allow me to express my gratitude to you &#58; &#41;
         </Paragraph>
-        </Section>
+
+        <Flex justify="space-between">
+        <Box align="left" my={4}>
+          <Button
+            as={NextLink}
+            href="https://blog.langdon.one"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme={useColorModeValue('purple', 'orange')}
+            >
+            My Blog
+          </Button>
+        </Box>
+        <Box align="right" my={4}>
+          <Button
+            as={NextLink}
+            href="https://channel.langdon.one/"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme={useColorModeValue('purple', 'orange')}
+          >
+            My Channel
+          </Button>
+        </Box>
+        </Flex>
+      </Section>
 
         <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
