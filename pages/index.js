@@ -270,17 +270,17 @@ const Home = () => (
 
         </List>
         <Flex justify="space-between">
-        <Box align="right" my={4}>
-          <NextLink href="https://blog.langdon.one/archives.html" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
-              Read my posts
-            </Button>
-          </NextLink>
-        </Box>
         <Box align="left" my={4}>
           <NextLink href="https://superlangdon.zhubai.love" passHref scroll={false}>
             <Button leftIcon={<EmailIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
             Sign up my newsletter here
+            </Button>
+          </NextLink>
+        </Box>
+        <Box align="right" my={4}>
+          <NextLink href="https://blog.langdon.one/archives.html" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
+              Read my posts
             </Button>
           </NextLink>
         </Box>
