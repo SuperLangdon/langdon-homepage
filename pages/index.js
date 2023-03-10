@@ -282,8 +282,8 @@ const Home = () => (
 
         </List>
         <Box align="right" my={4}>
-          <NextLink href="superlangdon.zhubai.love" passHref scroll={false}>
-            <Button rightIcon={<EmailIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
+          <NextLink href="https://superlangdon.zhubai.love" passHref scroll={false}>
+            <Button leftIcon={<EmailIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
             Sign up my newsletter here
             </Button>
           </NextLink>
