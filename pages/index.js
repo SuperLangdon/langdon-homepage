@@ -11,7 +11,7 @@ import {
   ListItem,
 	Text,
   useColorModeValue,
-  chakra
+  chakra,
   Flex
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
