@@ -264,7 +264,7 @@ const Home = () => (
           Newsletter
         </Heading>
         <p>
-        Join VoyagerNews - it's currently in testing. Every two weeks, I'll provide you with my insights, observations, and thoughts.
+        Join VoyagerNews - it&apos;s currently in testing. Every two weeks, I&apos;ll provide you with my insights, observations, and thoughts.
         </p>
 
         </List>
