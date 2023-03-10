@@ -133,7 +133,7 @@ const Home = () => (
         Finally, I&apos;m glad you were able to read this lengthy biography and please allow me to express my gratitude to you &#58; &#41;
         </Paragraph>
 
-        <Flex justify="space-between">
+        <Flex justify="center">
         <Box align="left" my={4}>
           <Button
             as={NextLink}
