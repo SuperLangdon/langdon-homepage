@@ -275,12 +275,6 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box>
-      </Section>
-			<Divider my={6} borderColor={useColorModeValue('purple.300', 'orange.200')} />
-    </Container>
-  </Layout >
-
-        </List>
         <Box align="right" my={4}>
           <NextLink href="https://superlangdon.zhubai.love" passHref scroll={false}>
             <Button leftIcon={<EmailIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
