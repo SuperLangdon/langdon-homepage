@@ -12,6 +12,7 @@ import {
 	Text,
   useColorModeValue,
   chakra
+  Flex
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
