@@ -282,7 +282,7 @@ const Home = () => (
           href="https://www.devas.life/"
           scroll={false}
           leftIcon={<EmailIcon />}
-          colorScheme="teal"
+          colorScheme={useColorModeValue('purple', 'orange')}
         >
         Sign up my newsletter here
         </Button>
