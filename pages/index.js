@@ -112,16 +112,16 @@ const Home = () => (
         📰 <strong>Independent Writer</strong>
         </Paragraph>
         <Paragraph>
-        In my spare time, I observe the world and put them into articles, as you can see in {' '}
+        In my spare time, I observe the world and put them into articles, as you can see in my {' '}
           <NextLink href="https://blog.langdon.one" passHref scroll={false}>
-            <Link>my Blog</Link>
+            <Link>Blog</Link>
           </NextLink>
           . I will write about the process and results of my practice and reflection, or what I have seen in my life or work. Some of the content is also the result of my sudden inspiration. I also write lyrics or translate some English content into Chinese.
           </Paragraph>
           <Paragraph>
-          Also, you can follow {' '}
+          Also, you can follow my {' '}
           <NextLink href="https://sapphe1r0s.t.me" passHref scroll={false}>
-            <Link>my Telegram Channel </Link>
+            <Link>Telegram Channel </Link>
           </NextLink>
           to see something not that serious. I will broadcast what I saw while surfing on the Internet in it. However, these are all in Chinese.
         </Paragraph>
