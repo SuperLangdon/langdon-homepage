@@ -269,12 +269,16 @@ const Home = () => (
 
         </List>
         <Box align="center" my={4}>
-          <NextLink href="https://blog.langdon.one/archives.html" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('purple', 'orange')}>
-              Read my posts
-            </Button>
-          </NextLink>
-        </Box>
+        <Button
+          as={NextLink}
+          href="https://www.devas.life/"
+          scroll={false}
+          leftIcon={<EmailIcon />}
+          colorScheme="teal"
+        >
+        Sign up my newsletter here
+        </Button>
+          </Box>
       </Section>
 			<Divider my={6} borderColor={useColorModeValue('purple.300', 'orange.200')} />
     </Container>
