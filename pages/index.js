@@ -52,6 +52,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
         <Heading as="h2" variant="page-title">
+            Langdon Lin
           </Heading>
           <p>&#91;&#712;læŋdən&#93; / aka &ldquo;澜璒&rdquo;</p>
 					<p>Amateur developer | Individual Investor | Independent Writer</p>
