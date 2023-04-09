@@ -148,7 +148,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>💾 Environment</BioYear><br />
-          Windows 10 & 11\Ubuntu 20.04\macOS Ventura\iOS 15 & 16\Android12 & 13
+          Windows 10 & 11\Ubuntu 20.04\Debian\macOS Ventura\iOS 15 & 16\Android13
         </BioSection>
         <BioSection>
           <BioYear>💻 Devices</BioYear><br />
