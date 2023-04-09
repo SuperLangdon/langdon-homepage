@@ -279,7 +279,7 @@ const Home = () => (
         <Box align="center" my={4}>
         <Button
           as={NextLink}
-          href="https://www.devas.life/"
+          href="https://superlangdon.zhubai.love"
           scroll={false}
           leftIcon={<EmailIcon />}
           colorScheme={useColorModeValue('purple', 'orange')}
