@@ -1,7 +1,7 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "langdon-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Langdon's homepage",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -28,5 +28,7 @@
     "eslint": "^8.31.0",
     "eslint-config-next": "^13.1.1",
     "prettier": "^2.8.2"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/SuperLangdon/langdon-homepage.git"
 }
