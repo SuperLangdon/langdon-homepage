@@ -87,8 +87,8 @@ const Home = () => (
               src="/images/langdon.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="200"
-              height="200"
+              width="150"
+              height="150"
             />
           </Box>
         </Box>
@@ -126,18 +126,26 @@ const Home = () => (
         <Paragraph>
           I&apos;m currently working on my quantitative trading project.
         </Paragraph>
-        <Paragraph>
+        <Heading
+          as="h4"
+          variant="subsection-title"
+          className="subsection-title"
+        >
           💵 <strong>Individual Investor</strong>
-        </Paragraph>
+          </Heading>
         <Paragraph>
           I have been involved in the stock market and financial derivatives
           since 2015, and I currently invest mainly in the Hong Kong and US
           stock markets. In 2022, my return on equities has reached 46.5%.
           Currently I am still exploring.
         </Paragraph>
-        <Paragraph>
+        <Heading
+          as="h4"
+          variant="subsection-title"
+          className="subsection-title"
+        >
           📰 <strong>Independent Writer</strong>
-        </Paragraph>
+          </Heading>
         <Paragraph>
           In my spare time, I observe the world and put them into articles, as
           you can see in my{' '}
