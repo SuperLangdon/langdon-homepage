@@ -108,9 +108,13 @@ const Home = () => (
           <strong>&quot;澜璒&quot;</strong> on internet. Now based in China,
           working in a university. I&apos;m a:
         </Paragraph>
-        <Paragraph>
+        <Heading
+          as="h4"
+          variant="subsection-title"
+          className="subsection-title"
+        >
           🛠️ <strong>Amateur developer</strong>
-        </Paragraph>
+        </Heading>
         <Paragraph>
           I work on some projects using my spare time from time to time, like
           planning and designing in my way to solving reallife problems with
