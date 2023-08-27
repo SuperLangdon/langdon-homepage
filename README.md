@@ -2,7 +2,7 @@
 
 [My Homepage](https://langdon.one/) | [My Blog](https://blog.langdon.one/) | [My Channel](https://t.me/sapphe1r0s)
 
-<img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white" alt="Vercel" />
 
 ## Stack
 
