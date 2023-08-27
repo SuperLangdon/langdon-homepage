@@ -132,7 +132,7 @@ const Home = () => (
           className="subsection-title"
         >
           💵 <strong>Individual Investor</strong>
-          </Heading>
+        </Heading>
         <Paragraph>
           I have been involved in the stock market and financial derivatives
           since 2015, and I currently invest mainly in the Hong Kong and US
@@ -145,11 +145,16 @@ const Home = () => (
           className="subsection-title"
         >
           📰 <strong>Independent Writer</strong>
-          </Heading>
+        </Heading>
         <Paragraph>
           In my spare time, I observe the world and put them into articles, as
           you can see in my{' '}
-          <NextLink href="https://blog.langdon.one" passHref scroll={false} legacyBehavior>
+          <NextLink
+            href="https://blog.langdon.one"
+            passHref
+            scroll={false}
+            legacyBehavior
+          >
             <Link>Blog</Link>
           </NextLink>
           . I will write about the process and results of my practice and
@@ -159,7 +164,12 @@ const Home = () => (
         </Paragraph>
         <Paragraph>
           Also, you can follow my{' '}
-          <NextLink href="https://sapphe1r0s.t.me" passHref scroll={false} legacyBehavior>
+          <NextLink
+            href="https://sapphe1r0s.t.me"
+            passHref
+            scroll={false}
+            legacyBehavior
+          >
             <Link>Telegram Channel </Link>
           </NextLink>
           to see something not that serious. I will broadcast what I saw while
@@ -180,7 +190,8 @@ const Home = () => (
           href="https://blog.langdon.one/archives.html"
           passHref
           scroll={false}
-          legacyBehavior>
+          legacyBehavior
+        >
           <Button
             rightIcon={<ChevronRightIcon />}
             colorScheme={useColorModeValue('purple', 'orange')}
@@ -240,7 +251,12 @@ const Home = () => (
         </Heading>
         <Paragraph>
           {' '}
-          <NextLink href="mailto:email@langdon.one" passHref scroll={false} legacyBehavior>
+          <NextLink
+            href="mailto:email@langdon.one"
+            passHref
+            scroll={false}
+            legacyBehavior
+          >
             <Link>Send me an Email</Link>
           </NextLink>
           , or find more of my contact information at &quot;On the web&quot;

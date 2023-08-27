@@ -29,8 +29,7 @@ const LogoBox = styled(Text)`
 
 const Logo = () => {
   return (
-    (<Link href="/" scroll={false}>
-
+    <Link href="/" scroll={false}>
       <LogoBox>
         <Flex direction="row" gap={1}>
           <Text
@@ -60,9 +59,8 @@ const Logo = () => {
           </Text>
         </Flex>
       </LogoBox>
-
-    </Link>)
-  );
+    </Link>
+  )
 }
 
 export default Logo

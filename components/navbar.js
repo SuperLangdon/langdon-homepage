@@ -33,7 +33,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
         {children}
       </Link>
     </NextLink>
-  );
+  )
 }
 
 const Navbar = props => {
@@ -110,10 +110,18 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="https://blog.langdon.one" passHref legacyBehavior>
+                <NextLink
+                  href="https://blog.langdon.one"
+                  passHref
+                  legacyBehavior
+                >
                   <MenuItem as={Link}>Blog</MenuItem>
                 </NextLink>
-                <NextLink href="https://channel.langdon.one" passHref legacyBehavior>
+                <NextLink
+                  href="https://channel.langdon.one"
+                  passHref
+                  legacyBehavior
+                >
                   <MenuItem as={Link}>Channel</MenuItem>
                 </NextLink>
               </MenuList>
@@ -122,7 +130,7 @@ const Navbar = props => {
         </Box>
       </Container>
     </Box>
-  );
+  )
 }
 
 export default Navbar

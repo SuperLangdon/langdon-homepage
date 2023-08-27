@@ -6,7 +6,7 @@ const Paragraph = styled.p`
   hyphens: auto;
   font-family: 'Noto Serif HK';
   font-weight: regular;
-  line-height: 1.6
+  line-height: 1.6;
 `
 
 export default Paragraph
