@@ -22,7 +22,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
   return (
-    <NextLink href={href} passHref scroll={false}>
+    <NextLink href={href} passHref scroll={false} legacyBehavior>
       <Link
         p={2}
         bg={active ? 'grassTeal' : undefined}
@@ -33,7 +33,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
         {children}
       </Link>
     </NextLink>
-  )
+  );
 }
 
 const Navbar = props => {
@@ -110,10 +110,10 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="https://blog.langdon.one" passHref>
+                <NextLink href="https://blog.langdon.one" passHref legacyBehavior>
                   <MenuItem as={Link}>Blog</MenuItem>
                 </NextLink>
-                <NextLink href="https://channel.langdon.one" passHref>
+                <NextLink href="https://channel.langdon.one" passHref legacyBehavior>
                   <MenuItem as={Link}>Channel</MenuItem>
                 </NextLink>
               </MenuList>
@@ -122,7 +122,7 @@ const Navbar = props => {
         </Box>
       </Container>
     </Box>
-  )
+  );
 }
 
 export default Navbar

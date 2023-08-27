@@ -87,8 +87,8 @@ const Home = () => (
               src="/images/langdon.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="150px"
-              height="150px"
+              width="200"
+              height="200"
             />
           </Box>
         </Box>
@@ -141,7 +141,7 @@ const Home = () => (
         <Paragraph>
           In my spare time, I observe the world and put them into articles, as
           you can see in my{' '}
-          <NextLink href="https://blog.langdon.one" passHref scroll={false}>
+          <NextLink href="https://blog.langdon.one" passHref scroll={false} legacyBehavior>
             <Link>Blog</Link>
           </NextLink>
           . I will write about the process and results of my practice and
@@ -151,7 +151,7 @@ const Home = () => (
         </Paragraph>
         <Paragraph>
           Also, you can follow my{' '}
-          <NextLink href="https://sapphe1r0s.t.me" passHref scroll={false}>
+          <NextLink href="https://sapphe1r0s.t.me" passHref scroll={false} legacyBehavior>
             <Link>Telegram Channel </Link>
           </NextLink>
           to see something not that serious. I will broadcast what I saw while
@@ -172,7 +172,7 @@ const Home = () => (
           href="https://blog.langdon.one/archives.html"
           passHref
           scroll={false}
-        >
+          legacyBehavior>
           <Button
             rightIcon={<ChevronRightIcon />}
             colorScheme={useColorModeValue('purple', 'orange')}
@@ -232,7 +232,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           {' '}
-          <NextLink href="mailto:email@langdon.one" passHref scroll={false}>
+          <NextLink href="mailto:email@langdon.one" passHref scroll={false} legacyBehavior>
             <Link>Send me an Email</Link>
           </NextLink>
           , or find more of my contact information at &quot;On the web&quot;
