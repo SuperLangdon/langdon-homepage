@@ -35,11 +35,12 @@ const ProfileImage = chakra(Image, {
 })
 
 const Quote = styled(Text)`
-  font-size: 24px;
+  font-size: 16px;
   font-family: 'Noto Serif HK';
-  font-weight: regular;
-  text-align: center;
+  font-weight: bold;
+  text-align: left;
   margin-top: 1.5em;
+  font-style: italic;
 `
 
 const Home = () => (
@@ -65,7 +66,7 @@ const Home = () => (
           </Heading>
           <p>&#91;&#712;læŋdən&#93; / aka &ldquo;澜璒&rdquo;</p>
           <p>Amateur developer | Individual Investor | Independent Writer</p>
-          <Quote>&ldquo; 而浮生若梦，为欢几何&#65311; &rdquo;</Quote>
+          <Quote>而浮生若梦，为欢几何&#65311;</Quote>
         </Box>
         <Box
           flexShrink={0}
@@ -131,7 +132,7 @@ const Home = () => (
           variant="subsection-title"
           className="subsection-title"
         >
-          💵 <strong>Individual Investor</strong>
+          💲 <strong>Individual Investor</strong>
         </Heading>
         <Paragraph>
           I have been involved in the stock market and financial derivatives
@@ -144,7 +145,7 @@ const Home = () => (
           variant="subsection-title"
           className="subsection-title"
         >
-          📰 <strong>Independent Writer</strong>
+          ✒️ <strong>Independent Writer</strong>
         </Heading>
         <Paragraph>
           In my spare time, I observe the world and put them into articles, as
@@ -200,6 +201,20 @@ const Home = () => (
           </Button>
         </NextLink>
       </Box>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          About “而浮生若梦，为欢几何？”
+        </Heading>
+        <Paragraph>
+          “而浮生若梦，为欢几何？”This line originates from a Chinese poem by
+          the Tang dynasty poet Li Bai, which I hold in great affection. It
+          translates to the English sentiment as "Our floating life is like a
+          dream; how often one can enjoy oneself?" The poet intended to convey
+          through this line that human life is ephemeral, akin to a fleeting
+          illusion, urging us to embrace each day with a carefree attitude.
+        </Paragraph>
+      </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
