@@ -138,7 +138,7 @@ const Home = () => (
           Since 2015, I&#39;ve been actively engaged in the stock market and
           financial derivatives. My primary investments are mainly in the Hong
           Kong and US stock markets. In 2022, my return on equities has reached
-          46.5%. Furthermore, I have passed the Securities Qualification Exam in
+          46.5%. In addition, I have passed the Securities Qualification Exam in
           China. Currently, I&#39;m in a phase of ongoing exploration and learning.
         </Paragraph>
         <Heading
