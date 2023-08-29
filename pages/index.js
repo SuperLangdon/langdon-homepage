@@ -22,7 +22,7 @@ import {
   IoLogoTwitter,
   IoLogoSteam,
   IoLogoGithub,
-  IoPaperPlaneSharp,
+  IoPaperPlane,
   IoCodeSlashSharp,
   IoLogoMastodon,
   IoDiamondOutline
@@ -209,8 +209,8 @@ const Home = () => (
         <Paragraph>
         &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;This line originates from a Chinese poem by
           the Tang dynasty poet Li Bai, which I hold in great affection. It
-          translates to the English sentiment as "Our floating life is like a
-          dream; how often one can enjoy oneself?" The poet intended to convey
+          translates to the English sentiment as &#8216;Our floating life is like a
+          dream; how often one can enjoy oneself&#63;&#8217; The poet intended to convey
           through this line that human life is ephemeral, akin to a fleeting
           illusion, urging us to embrace each day with a carefree attitude.
         </Paragraph>
@@ -324,7 +324,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme={useColorModeValue('purple', 'orange')}
-                leftIcon={<IoPaperPlaneSharp />}
+                leftIcon={<IoPaperPlane />}
               >
                 澜璒@Telegram
               </Button>
