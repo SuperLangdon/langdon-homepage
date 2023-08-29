@@ -143,13 +143,15 @@ const Navbar = props => {
                 >
                   <MenuItem as={Link}>Blog</MenuItem>
                 </NextLink>
+
                 <NextLink
                   href="https://channel.langdon.one"
                   passHref
                   legacyBehavior
                 >
-                  <MenuItem as={Link}>Newsletter</MenuItem>
+                  <MenuItem as={Link}>Channel</MenuItem>
                 </NextLink>
+
                 <NextLink
                   href="https://superlangdon.zhubai.love"
                   passHref
@@ -157,6 +159,7 @@ const Navbar = props => {
                 >
                   <MenuItem as={Link}>Newsletter</MenuItem>
                 </NextLink>
+
                 <NextLink
                   href="https://github.com/SuperLangdon"
                   passHref
