@@ -204,10 +204,10 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          About “而浮生若梦，为欢几何？”
+        About &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;
         </Heading>
         <Paragraph>
-          “而浮生若梦，为欢几何？”This line originates from a Chinese poem by
+        &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;This line originates from a Chinese poem by
           the Tang dynasty poet Li Bai, which I hold in great affection. It
           translates to the English sentiment as "Our floating life is like a
           dream; how often one can enjoy oneself?" The poet intended to convey
