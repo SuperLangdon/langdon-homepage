@@ -135,10 +135,7 @@ const Home = () => (
           💲 <strong>Individual Investor</strong>
         </Heading>
         <Paragraph>
-          I have been involved in the stock market and financial derivatives
-          since 2015, and I currently invest mainly in the Hong Kong and US
-          stock markets. In 2022, my return on equities has reached 46.5%.
-          Currently I am still exploring.
+        Since 2015, I've been actively engaged in the stock market and financial derivatives. My primary investments are mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5%. Furthermore, I have passed the Securities Qualification Exam in China. Currently, I'm in a phase of ongoing exploration and learning.
         </Paragraph>
         <Heading
           as="h4"
@@ -204,15 +201,16 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-        About &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;
+          About &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;
         </Heading>
         <Paragraph>
-        &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;This line originates from a Chinese poem by
-          the Tang dynasty poet Li Bai, which I hold in great affection. It
-          translates to the English sentiment as &#8216;Our floating life is like a
-          dream; how often one can enjoy oneself&#63;&#8217; The poet intended to convey
-          through this line that human life is ephemeral, akin to a fleeting
-          illusion, urging us to embrace each day with a carefree attitude.
+          &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;This line originates from a
+          Chinese poem by the Tang dynasty poet Li Bai, which I hold in great
+          affection. It translates to the English sentiment as &#8216;Our
+          floating life is like a dream; how often one can enjoy
+          oneself&#63;&#8217; The poet intended to convey through this line that
+          human life is ephemeral, akin to a fleeting illusion, urging us to
+          embrace each day with a carefree attitude.
         </Paragraph>
       </Section>
 
