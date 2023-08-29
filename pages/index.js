@@ -135,7 +135,11 @@ const Home = () => (
           💲 <strong>Individual Investor</strong>
         </Heading>
         <Paragraph>
-        Since 2015, I've been actively engaged in the stock market and financial derivatives. My primary investments are mainly in the Hong Kong and US stock markets. In 2022, my return on equities has reached 46.5%. Furthermore, I have passed the Securities Qualification Exam in China. Currently, I'm in a phase of ongoing exploration and learning.
+          Since 2015, I&#39;ve been actively engaged in the stock market and
+          financial derivatives. My primary investments are mainly in the Hong
+          Kong and US stock markets. In 2022, my return on equities has reached
+          46.5%. Furthermore, I have passed the Securities Qualification Exam in
+          China. Currently, I&#39;m in a phase of ongoing exploration and learning.
         </Paragraph>
         <Heading
           as="h4"
