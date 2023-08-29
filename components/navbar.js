@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoPaperPlaneSharp, IoLogoWordpress } from 'react-icons/io5'
+import { IoPaperPlane, IoBookmark, IoNewspaper, IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -80,7 +80,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoWordpress />
+            <IoBookmark />
             Blog
           </LinkItem>
 
@@ -93,8 +93,34 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoPaperPlaneSharp />
+            <IoPaperPlane />
             Channel
+          </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://superlangdon.zhubai.love"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoNewspaper />
+            Newsletter
+          </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://github.com/SuperLangdon"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Github
           </LinkItem>
         </Stack>
 
@@ -122,7 +148,21 @@ const Navbar = props => {
                   passHref
                   legacyBehavior
                 >
-                  <MenuItem as={Link}>Channel</MenuItem>
+                  <MenuItem as={Link}>Newsletter</MenuItem>
+                </NextLink>
+                <NextLink
+                  href="https://superlangdon.zhubai.love"
+                  passHref
+                  legacyBehavior
+                >
+                  <MenuItem as={Link}>Newsletter</MenuItem>
+                </NextLink>
+                <NextLink
+                  href="https://github.com/SuperLangdon"
+                  passHref
+                  legacyBehavior
+                >
+                  <MenuItem as={Link}>Github</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
