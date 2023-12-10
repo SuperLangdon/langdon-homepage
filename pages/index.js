@@ -22,10 +22,10 @@ import {
   IoLogoTwitter,
   IoLogoSteam,
   IoLogoGithub,
-  IoPaperPlane,
   IoCodeSlashSharp,
   IoLogoMastodon,
-  IoDiamondOutline
+  IoDiamondOutline,
+  IoEarthSharp
 } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from '@emotion/styled'
@@ -322,13 +322,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://t.me/GeniusLangdon" target="_blank">
+            <Link href="https://bsky.app/profile/langd.one" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme={useColorModeValue('purple', 'orange')}
-                leftIcon={<IoPaperPlane />}
+                leftIcon={<IoEarthSharp />}
               >
-                澜璒@Telegram
+                EvaLangdon@Bluesky
               </Button>
             </Link>
           </ListItem>
