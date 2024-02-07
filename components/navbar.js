@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import LanguageToggleButton from './language-toggle-button'
 import {
   IoPaperPlane,
   IoBookmark,
@@ -129,7 +130,15 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box
+          flex={1}
+          align="right"
+          display="flex"
+          alignItems="center"
+          justifyContent="right"
+        >
+          <LanguageToggleButton />
+          <Box mx={1} />
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
