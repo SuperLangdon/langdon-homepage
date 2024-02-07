@@ -1,21 +1,11 @@
-import { Box, Link, Button, useColorModeValue } from '@chakra-ui/react'
-import { IoLogoGithub } from 'react-icons/io5'
+import { Box, Link } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Langdon Lin. All Rights Reserved.
-      <Link
-        href="https://github.com/craftzdog/craftzdog-homepage"
-        target="_blank"
-      >
-        <Button
-          variant="ghost"
-          colorScheme={useColorModeValue('purple', 'orange')}
-          leftIcon={<IoLogoGithub />}
-        >
-          Source
-        </Button>
+      &copy; {new Date().getFullYear()} Langdon Lin. All Rights Reserved. {' '}
+      <Link href="https://creativecommons.org/licenses/by-nc-nd/4.0/" isExternal>
+        CC BY-NC-ND
       </Link>
     </Box>
   )
