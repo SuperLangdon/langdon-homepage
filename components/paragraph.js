@@ -4,7 +4,7 @@ const Paragraph = styled.p`
   text-align: justify;
   text-indent: 1em;
   hyphens: auto;
-  font-family: 'Noto Serif HK';
+  font-family: 'Noto Sans Simplified Chinese';
   font-weight: regular;
   line-height: 1.6;
 `

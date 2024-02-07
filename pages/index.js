@@ -36,7 +36,7 @@ const ProfileImage = chakra(Image, {
 
 const Quote = styled(Text)`
   font-size: 16px;
-  font-family: 'Noto Serif HK';
+  font-family: 'Noto Sans Simplified Chinese';
   font-weight: bold;
   text-align: left;
   margin-top: 1.5em;
