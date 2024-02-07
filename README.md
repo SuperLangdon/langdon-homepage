@@ -7,9 +7,8 @@
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
-- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
-- [Three.js](https://threejs.org/) - 3D library for JavaScript
-- [Framer Motion](https://www.framer.com/motion/) - An animation library for React
+- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React.
+- [Framer Motion](https://www.framer.com/motion/) - An animation library for React.
 
 ## Project structure
 
@@ -22,17 +21,24 @@ $PROJECT_ROOT
 │   # Non-react modules
 ├── lib
 │   # Static files
-├── public
-│   # Abandoned files
-└──  trash
+└── public
 ```
+## What's New?
+- Larger canvas to fit more content.
+- Redesigned About section - write more about self in a more formal manner.
+- Logo is now in the form of a font.
+- Added a language toggle button.
+- Second language page.
+- Added a tags component.
 
 ## License
 
 MIT License.
 
+Check out [LICENSE](./LICENSE) for more detail.
+
 ## Credit
 
-- This is a fork of [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) from [Takuya Matsuyama](https://www.craftz.dog/).
+-  [Takuya Matsuyama (craftdog)](https://www.craftz.dog/) for creating the template [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) .
 
-- Typography was inspired by [Reorx’s Forge](https://reorx.com/).
+- [Reorx’s Forge](https://reorx.com/) for inspired me.
