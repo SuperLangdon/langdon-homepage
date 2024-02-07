@@ -14,7 +14,7 @@ function Tag(props) {
       m="5px"
       display="inline-block"
     >
-      {props.text}
+      #{props.text}
     </Box>
   )
 }
