@@ -15,7 +15,7 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { UseSection, UseTitle, UseText, UseIcon } from '../components/use'
+import { UseSection, UseTitle, UseText } from '../components/use'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {
@@ -25,11 +25,8 @@ import {
   IoCodeSlashSharp,
   IoLogoMastodon,
   IoDiamondOutline,
-  IoEarthSharp,
-  IoLogoWindows,
-  IoCog
+  IoEarthSharp
 } from 'react-icons/io5'
-import { SiWindows11 } from 'react-icons/si'
 import Image from 'next/image'
 import styled from '@emotion/styled'
 import Tag from '../components/tag'
@@ -208,7 +205,7 @@ const Home = () => (
           <UseText> Windows 10 LTSC [21H2] </UseText>
           <UseText>Windows 11 [23H2]</UseText>
           <UseText>Ubuntu 20.04.6 LTS (Focal Fossa)</UseText>
-          <UseText>Debian 11.5 "bullseye"</UseText>
+          <UseText>Debian 11.5 &quot;bullseye&quot;</UseText>
           <UseText>macOS Ventura [13.6.4]</UseText>
           <UseText>iOS 17.3 (21D50)</UseText>
           <UseText>LineageOS 20 (Android 13)</UseText>
