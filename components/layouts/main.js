@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="澜璒" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="澜璒" />
+        <meta name="twitter:title" content="Langdon Lin" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@CyberLangdon" />
         <meta name="twitter:creator" content="@CyberLangdon" />
