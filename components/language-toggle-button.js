@@ -18,7 +18,7 @@ const LanguageToggleButton = () => {
     router.push(newPath)
   }
   return (
-    <AnimatePresence exitBeforeEnter initial={false}>
+    <AnimatePresence mode="wait" initial={false}>
       <motion.div
         style={{ display: 'inline-block' }}
         key={router.pathname.startsWith('/cn') ? 'cn' : 'en'}
