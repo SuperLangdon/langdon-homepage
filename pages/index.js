@@ -193,10 +193,7 @@ const Home = () => (
           scroll={false}
           legacyBehavior
         >
-          <Button
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          >
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
             Read my posts
           </Button>
         </NextLink>

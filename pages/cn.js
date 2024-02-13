@@ -178,10 +178,7 @@ const Home = () => (
           scroll={false}
           legacyBehavior
         >
-          <Button
-            rightIcon={<ChevronRightIcon />}
-            colorScheme={useColorModeValue('purple', 'orange')}
-          >
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
             查看我的文章
           </Button>
         </NextLink>
@@ -227,7 +224,6 @@ const Home = () => (
           <UseText>相机 - 索尼 Cyber-shot DSC-RX100 II</UseText>
         </UseSection>
       </Section>
-
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           我的标签
@@ -280,7 +276,6 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           在互联网上...
         </Heading>
-
         <List>
           <ListItem>
             <Link href="https://github.com/SuperLangdon" target="_blank">
@@ -391,16 +386,12 @@ const Home = () => (
             href="https://superlangdon.zhubai.love"
             scroll={false}
             leftIcon={<EmailIcon />}
-            colorScheme={useColorModeValue('purple', 'orange')}
+            colorScheme="teal"
           >
             订阅我的新闻通讯
           </Button>
         </Box>
       </Section>
-      <Divider
-        my={6}
-        borderColor={useColorModeValue('purple.300', 'orange.200')}
-      />
     </Container>
   </Layout>
 )
