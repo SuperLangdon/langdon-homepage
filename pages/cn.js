@@ -232,7 +232,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           我的标签
         </Heading>
-        <Tag text="独立作者" />
+        <Tag text="自由撰稿人" />
         <Tag text="创业中" />
         <Tag text="韭菜" />
         <Tag text="低技术力" />
