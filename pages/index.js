@@ -15,7 +15,7 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { UseSection, UseTitle } from '../components/use'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {
@@ -223,14 +223,14 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Uses
         </Heading>
-        <BioSection>
-          <BioYear>💾 Environment</BioYear>
+        <UseSection>
+          <UseTitle>💾 Environment</UseTitle>
           <br />
           Windows 10 & 11\Ubuntu 20.04\Debian\macOS Ventura\iOS 15 &
           16\Android13
-        </BioSection>
-        <BioSection>
-          <BioYear>💻 Devices</BioYear>
+        </UseSection>
+        <UseSection>
+          <UseTitle>💻 Devices</UseTitle>
           <br />
           Keyboard - Akko 3108 V2
           <br />
@@ -248,7 +248,7 @@ const Home = () => (
           <br />
           Camera - Sony Cyber-shot DSC-RX100 II
           <br />
-        </BioSection>
+        </UseSection>
       </Section>
 
       <Section delay={0.2}>
