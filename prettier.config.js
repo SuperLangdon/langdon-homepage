@@ -1,6 +1,7 @@
 const options = {
   arrowParens: 'avoid',
   singleQuote: true,
+  quoteProps: 'as-needed',
   bracketSpacing: true,
   endOfLine: 'lf',
   semi: false,
