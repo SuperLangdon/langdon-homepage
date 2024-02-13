@@ -23,7 +23,9 @@ $PROJECT_ROOT
 │   # Static files
 └── public
 ```
+
 ## What's New?
+
 - Larger canvas to fit more content.
 - Redesigned About section - write more about self in a more formal manner.
 - Logo is now in the form of a font.
@@ -39,6 +41,6 @@ Check out [LICENSE](./LICENSE) for more detail.
 
 ## Credit
 
--  [Takuya Matsuyama (craftdog)](https://www.craftz.dog/) for creating the template [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) .
+- [Takuya Matsuyama (craftdog)](https://www.craftz.dog/) for creating the template [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) .
 
 - [Reorx’s Forge](https://reorx.com/) for inspired me.
