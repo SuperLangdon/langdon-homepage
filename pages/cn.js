@@ -22,10 +22,11 @@ import {
   IoLogoTwitter,
   IoLogoSteam,
   IoLogoGithub,
-  IoCodeSlashSharp,
+  IoCodeSlash,
   IoLogoMastodon,
   IoDiamondOutline,
-  IoEarthSharp
+  IoEarth,
+  IoSparkles
 } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from '@emotion/styled'
@@ -37,7 +38,7 @@ const ProfileImage = chakra(Image, {
 
 const Quote = styled(Text)`
   font-size: 16px;
-  font-family: 'LXGW WenKai';
+  font-family: 'Noto Sans Simplified Chinese';
   font-weight: bold;
   text-align: left;
   margin-top: 1.5em;
@@ -108,7 +109,7 @@ const Home = () => (
           你好，我叫<strong>Langdon Lin</strong>
           ，但在互联网上，我更为人所熟知的名字是{''}
           <strong>&ldquo;澜璒&rdquo;</strong>
-          。现居中国，在一所大学里工作。 我是一位：
+          。现居中国大陆，在一所大学里工作。 我是一位：
         </Paragraph>
         <Heading
           as="h4"
@@ -118,8 +119,7 @@ const Home = () => (
           🛠️ <strong>业余开发者</strong>
         </Heading>
         <Paragraph>
-          作为一名业余开发者，
-          我热衷于利用业余时间开发一些小型项目，比如按照自己的想法去规划和设计某些东西（就像这个主页），用代码去解决现实生活中的问题。我热爱编程，喜欢尝试新技术，喜欢构建自己的工具。我在JavaScript方面相对专长，现在正在学习Python。
+          我热衷于利用业余时间开发一些小型项目，比如按照自己的想法去规划和设计某些东西（就像这个主页），用代码去解决现实生活中的问题。我热爱编程，喜欢尝试新技术，喜欢构建自己的工具。我在JavaScript方面相对擅长，现在正在学习Python。
         </Paragraph>
         <Paragraph>
           目前，我正在开发一个基于LLM（大型语言模型）的量化交易项目。
@@ -132,7 +132,7 @@ const Home = () => (
           💲 <strong>个人投资者</strong>
         </Heading>
         <Paragraph>
-          自2015年以来，我积极投身于在股票和金融衍生品市场，主要关注港股和美股。在2023年，我的总收益率达到了
+          自2015年以来，我积极投身于在股票和金融衍生品市场，投资主要集中在港股和美股。在2023年，我的总收益率达到了
           87.7%。另外，我已经通过了中国的证券业从业人员资格考试。
         </Paragraph>
         <Heading
@@ -143,26 +143,26 @@ const Home = () => (
           ✒️ <strong>独立作者</strong>
         </Heading>
         <Paragraph>
-          在闲暇之余，我以观察世界为乐，并将它们写成文章，这些内容都在{''}
+          在闲暇之余，我以观察世界为乐，并将它们写成文章，这些内容都在我的{''}
           <NextLink
             href="https://blog.langdon.one"
             passHref
             scroll={false}
             legacyBehavior
           >
-            <Link>我的Blog</Link>
+            <Link>Blog</Link>
           </NextLink>
           中。我会写下自己实践和思考的过程与结果，或者我在生活、工作中所见所闻的内容；也有一些是我一时迸发出的灵感所成。此外，我偶尔也会为歌曲填词，或把一些外文内容翻译成中文。
         </Paragraph>
         <Paragraph>
-          另外，您还可以关注{''}
+          另外，您还可以关注我的{''}
           <NextLink
             href="https://sapphe1r0s.t.me"
             passHref
             scroll={false}
             legacyBehavior
           >
-            <Link>我的Channel</Link>
+            <Link>Channel</Link>
           </NextLink>
           ，我在互联网上的看的与创作的内容都会在这里分享，订阅即可获取我的最新动态。
         </Paragraph>
@@ -216,7 +216,8 @@ const Home = () => (
           <UseText>键盘 - Akko 3108 V2</UseText>
           <UseText>鼠标 - 罗技 G304</UseText>
           <UseText>耳机 - 拜亚动力 谢兰图</UseText>
-          <UseText>显示器 - LG 27GL850</UseText>
+          <UseText>麦克风 - 雷蛇魔音海妖 V2 专业版</UseText>
+          <UseText>显示器 - LG UltraGear 27GL850</UseText>
           <UseText>笔记本 - 拯救者 Y9000P</UseText>
           <UseText>手机 - 小米 13 Ultra</UseText>
           <UseText>平板电脑 - iPad (第八代)</UseText>
@@ -228,7 +229,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           我的标签
         </Heading>
-        <Tag text="自由撰稿人" />
+        <Tag text="独立作者" />
         <Tag text="创业中" />
         <Tag text="韭菜" />
         <Tag text="低技术力" />
@@ -307,7 +308,18 @@ const Home = () => (
                 colorScheme={useColorModeValue('purple', 'orange')}
                 leftIcon={<IoLogoMastodon />}
               >
-                余烬@Mastodon
+                余烬@o3o.ca
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://o3o.ca/@sembers" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme={useColorModeValue('purple', 'orange')}
+                leftIcon={<IoSparkles />}
+              >
+                澜璒@dabr.ca
               </Button>
             </Link>
           </ListItem>
@@ -316,9 +328,9 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme={useColorModeValue('purple', 'orange')}
-                leftIcon={<IoEarthSharp />}
+                leftIcon={<IoEarth />}
               >
-                EvaLangdon@Bluesky
+                LangdonEvo@Bluesky
               </Button>
             </Link>
           </ListItem>
@@ -344,7 +356,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme={useColorModeValue('purple', 'orange')}
-                leftIcon={<IoCodeSlashSharp />}
+                leftIcon={<IoCodeSlash />}
               >
                 CyberLangdon@V2EX
               </Button>

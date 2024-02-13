@@ -15,20 +15,22 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { UseSection, UseTitle } from '../components/use'
+import { UseSection, UseTitle, UseText } from '../components/use'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {
   IoLogoTwitter,
   IoLogoSteam,
   IoLogoGithub,
-  IoCodeSlashSharp,
+  IoCodeSlash,
   IoLogoMastodon,
   IoDiamondOutline,
-  IoEarthSharp
+  IoEarth,
+  IoSparkles
 } from 'react-icons/io5'
 import Image from 'next/image'
 import styled from '@emotion/styled'
+import Tag from '../components/tag'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -55,7 +57,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi there, I&apos;m Langdon, an amateur developer, individual Investor,
+        Hi, I&apos;m Langdon, a Chinese amateur developer, individual Investor,
         and independent writer.
       </Box>
 
@@ -106,8 +108,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name{' '}
-          <strong>&quot;澜璒&quot;</strong> on internet. Now based in China,
-          working in a university. I&apos;m a:
+          <strong>&quot;澜璒&quot;</strong> on internet. Currently based in
+          China mainland, working in a university. I&apos;m a:
         </Paragraph>
         <Heading
           as="h4"
@@ -117,15 +119,16 @@ const Home = () => (
           🛠️ <strong>Amateur developer</strong>
         </Heading>
         <Paragraph>
-          I work on some projects using my spare time from time to time, like
-          planning and designing in my way to solving reallife problems with
-          code, but most of them are now in private. Of course, I will consider
-          opensource them at the right moment, if they can be of any help to
-          others. I&apos;m relatively specialize in Javascript, and I&apos;m
-          learning Python now.
+          I am passionate about using my spare time to develop some toy
+          projects, such as planning and designing something according to my own
+          ideas (like this homepage), solving reallife problems with code. I
+          love programming, enjoy experimenting with new technologies, and like
+          building my own tools. I&apos;m relatively specialize in Javascript,
+          and learning Python now.
         </Paragraph>
         <Paragraph>
-          I&apos;m currently working on my quantitative trading project.
+          I&apos;m currently working on my quantitative trading project based on
+          LLM (Large Language Models).
         </Paragraph>
         <Heading
           as="h4"
@@ -135,12 +138,11 @@ const Home = () => (
           💲 <strong>Individual Investor</strong>
         </Heading>
         <Paragraph>
-          Since 2015, I&#39;ve been actively engaged in the stock market and
-          financial derivatives. My primary investments are mainly in the Hong
-          Kong and US stock markets. In 2022, my return on equities has reached
-          46.5%. In addition, I have passed the Securities Qualification Exam in
-          China. Currently, I&#39;m in a phase of ongoing exploration and
-          learning.
+          Since 2015, I&#39;ve actively involved in the stock and financial
+          derivatives markets. My primary investments are mainly in the Hong
+          Kong and US stock markets. In 2023, my overall return rate reached
+          87.7%. In addition, I have passed the PRC Securities Regulations
+          Examination.
         </Paragraph>
         <Heading
           as="h4"
@@ -150,8 +152,8 @@ const Home = () => (
           ✒️ <strong>Independent Writer</strong>
         </Heading>
         <Paragraph>
-          In my spare time, I observe the world and put them into articles, as
-          you can see in my{' '}
+          In my spare time, I take pleasure in observing the world , and writing
+          about it in articles on my you can see in my{' '}
           <NextLink
             href="https://blog.langdon.one"
             passHref
@@ -160,31 +162,27 @@ const Home = () => (
           >
             <Link>Blog</Link>
           </NextLink>
-          . I will write about the process and results of my practice and
-          reflection, or what I have seen in my life or work. Some of the
+          . I will write about the process and results of my own practice and
+          reflections, or what I have see and hear in life and work. Some of the
           content is also the result of my sudden inspiration. I also write
-          lyrics or translate some English content into Chinese.
+          lyrics or translate foreign content into Chinese.
         </Paragraph>
         <Paragraph>
-          Also, you can follow my{' '}
+          Moreover, you can follow my{' '}
           <NextLink
             href="https://sapphe1r0s.t.me"
             passHref
             scroll={false}
             legacyBehavior
           >
-            <Link>Telegram Channel </Link>
+            <Link>Channel </Link>
           </NextLink>
-          to see something not that serious. I will broadcast what I saw while
-          surfing on the Internet in it. However, these are all in Chinese.
+          where I share what I watch and create on the internet. Subscribing
+          will keep you updated on my latest activities.
         </Paragraph>
         <Paragraph>
-          When I&apos;m not online, I like reading and writing, indulging in my
-          own &quot;InfinitySpace&quot;.
-        </Paragraph>
-        <Paragraph>
-          Finally, I&apos;m glad you were able to read this lengthy biography
-          and please allow me to express my gratitude to you &#58; &#41;
+          When offline, I enjoy reading and writing, immersing myself in my own
+          &quot;InfinitySpace&quot;.
         </Paragraph>
       </Section>
 
@@ -209,13 +207,12 @@ const Home = () => (
           About &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;
         </Heading>
         <Paragraph>
-          &ldquo;而浮生若梦，为欢几何&#65311;&rdquo;This line originates from a
-          Chinese poem by the Tang dynasty poet Li Bai, which I hold in great
-          affection. It translates to the English sentiment as &#8216;Our
-          floating life is like a dream; how often one can enjoy
-          oneself&#63;&#8217; The poet intended to convey through this line that
-          human life is ephemeral, akin to a fleeting illusion, urging us to
-          embrace each day with a carefree attitude.
+          This line originates from a Chinese poem by the Tang dynasty poet Li
+          Bai, which I hold in great affection. It translates to the English
+          sentiment as &#8216;Our floating life is like a dream; how often one
+          can enjoy oneself&#63;&#8217; The poet intended to convey through this
+          line that human life is ephemeral, akin to a fleeting illusion, urging
+          us to embrace each day with a carefree attitude.
         </Paragraph>
       </Section>
 
@@ -225,29 +222,26 @@ const Home = () => (
         </Heading>
         <UseSection>
           <UseTitle>💾 Environment</UseTitle>
-          <br />
-          Windows 10 & 11\Ubuntu 20.04\Debian\macOS Ventura\iOS 15 &
-          16\Android13
+          <UseText> Windows 10 LTSC [21H2] </UseText>
+          <UseText>Windows 11 [23H2]</UseText>
+          <UseText>Ubuntu 20.04.6 LTS (Focal Fossa)</UseText>
+          <UseText>Debian 11.5 &quot;bullseye&quot;</UseText>
+          <UseText>macOS Ventura [13.6.4]</UseText>
+          <UseText>iOS 17.3 (21D50)</UseText>
+          <UseText>LineageOS 20 (Android 13)</UseText>
+          <UseText>Xiaomi HyperOS 1.0 (Android 14)</UseText>
         </UseSection>
         <UseSection>
-          <UseTitle>💻 Devices</UseTitle>
-          <br />
-          Keyboard - Akko 3108 V2
-          <br />
-          Mouse - Logitech G304
-          <br />
-          Headphone - Beyerdynamic Xelento
-          <br />
-          Monitor - LG 27GL850
-          <br />
-          Laptop - Legion Y9000P
-          <br />
-          Phone - Xiaomi MI 10
-          <br />
-          Tablet - iPad 8th Gen
-          <br />
-          Camera - Sony Cyber-shot DSC-RX100 II
-          <br />
+          <UseTitle>💻 Techs</UseTitle>
+          <UseText>Keyboard - Akko 3108 V2</UseText>
+          <UseText>Mouse - Logitech G304</UseText>
+          <UseText>Headphone - Beyerdynamic Xelento</UseText>
+          <UseText>Microphone - Razer Seiren V2 Pro</UseText>
+          <UseText>Monitor - LG UltraGear 27GL850</UseText>
+          <UseText>Laptop - Lenovo Legion Y9000P</UseText>
+          <UseText>Phone - Xiaomi 13 Ultra</UseText>
+          <UseText>Tablet - iPad (8th Gen)</UseText>
+          <UseText>Camera - Sony Cyber-shot DSC-RX100 II</UseText>
         </UseSection>
       </Section>
 
@@ -255,12 +249,31 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Tags
         </Heading>
-        <Paragraph>
-          自由撰稿人 & 创业中 | 韭菜 | 低技术力 | 名校校友 | 无神论者 |
-          进步保守主义者 | ISTP | 肥宅 | 钢笔 & 键盘 & Hi-Fi & 游戏 | 咕咕 |
-          强迫症患者 | 越共 & 月厨 & 鲤友 | FF14 & ESO & 云图计划 & 明日方舟 |
-          软粉 | 雷军 & 姜文
-        </Paragraph>
+
+        <Tag text="Freelance Writer" />
+        <Tag text="Entrepreneurship in Progress" />
+        <Tag text="Retail Investor" />
+        <Tag text="Low Technical Ability" />
+        <Tag text="Alumni of Prestigious School" />
+        <Tag text="Atheist" />
+        <Tag text="Progressive Conservative" />
+        <Tag text="ISTP" />
+        <Tag text="Otaku" />
+        <Tag text="Fountain Pen" />
+        <Tag text="Keyboard" />
+        <Tag text="Hi-Fi" />
+        <Tag text="Gamer" />
+        <Tag text="GuGu" />
+        <Tag text="Obsessive Compulsive" />
+        <Tag text="Touhou Project" />
+        <Tag text="TYPE-MOON" />
+        <Tag text="Liyuu Fan" />
+        <Tag text="FFXIV" />
+        <Tag text="Reverse 1999" />
+        <Tag text="Arknights" />
+        <Tag text="Microsoft Fan" />
+        <Tag text="Lei Jun Fan" />
+        <Tag text="Jiang Wen Fan" />
       </Section>
 
       <Section delay={0.3}>
@@ -278,8 +291,8 @@ const Home = () => (
             <Link>Send me an Email</Link>
           </NextLink>
           , or find more of my contact information at &quot;On the web&quot;
-          section below. To make our communication smooth, use Chinese & English
-          please.
+          section below. In order to facilitate smooth communication, please use
+          Simplified Chinese or English (US)
         </Paragraph>
       </Section>
 
@@ -318,7 +331,18 @@ const Home = () => (
                 colorScheme={useColorModeValue('purple', 'orange')}
                 leftIcon={<IoLogoMastodon />}
               >
-                余烬@Mastodon
+                余烬@o3o.ca
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://o3o.ca/@sembers" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme={useColorModeValue('purple', 'orange')}
+                leftIcon={<IoSparkles />}
+              >
+                澜璒@dabr.ca
               </Button>
             </Link>
           </ListItem>
@@ -327,9 +351,9 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme={useColorModeValue('purple', 'orange')}
-                leftIcon={<IoEarthSharp />}
+                leftIcon={<IoEarth />}
               >
-                EvaLangdon@Bluesky
+                LangdonEvo@Bluesky
               </Button>
             </Link>
           </ListItem>
@@ -355,7 +379,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme={useColorModeValue('purple', 'orange')}
-                leftIcon={<IoCodeSlashSharp />}
+                leftIcon={<IoCodeSlash />}
               >
                 CyberLangdon@V2EX
               </Button>
@@ -377,7 +401,7 @@ const Home = () => (
             Newsletter
           </Heading>
           <Paragraph>
-            Join VoyagerNews - it&apos;s currently in testing. Every two weeks,
+            Join InnerEcho - it&apos;s currently in testing. Every two weeks,
             I&apos;ll provide you with my insights, observations, and thoughts.
           </Paragraph>
         </List>
