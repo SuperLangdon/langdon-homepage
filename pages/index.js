@@ -195,7 +195,7 @@ const Home = () => (
         >
           <Button
             rightIcon={<ChevronRightIcon />}
-            colorScheme={useColorModeValue('purple', 'orange')}
+            colorScheme="teal"
           >
             Read my posts
           </Button>
@@ -247,12 +247,10 @@ const Home = () => (
           <UseText>Camera - Sony Cyber-shot DSC-RX100 II</UseText>
         </UseSection>
       </Section>
-
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Tags
         </Heading>
-
         <Tag text="Freelance Writer" />
         <Tag text="Entrepreneurship in Progress" />
         <Tag text="Retail Investor" />
@@ -303,7 +301,6 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-
         <List>
           <ListItem>
             <Link href="https://github.com/SuperLangdon" target="_blank">
@@ -411,19 +408,15 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://superlangdon.zhubai.love"
+            href="https://superlangdon.zhubai.love/"
             scroll={false}
             leftIcon={<EmailIcon />}
-            colorScheme={useColorModeValue('purple', 'orange')}
+            colorScheme="teal"
           >
             Sign up my newsletter here
           </Button>
         </Box>
       </Section>
-      <Divider
-        my={6}
-        borderColor={useColorModeValue('purple.300', 'orange.200')}
-      />
     </Container>
   </Layout>
 )
