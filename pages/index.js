@@ -108,8 +108,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Hi, my real name is <strong>Langdon Lin</strong> but I prefer the name{' '}
-          <strong>&quot;澜璒&quot;</strong> on internet. Currently based in
-          China mainland, working in a university. I&apos;m a:
+          <strong>&quot;澜璒&quot;</strong> on internet. Now based in China
+          mainland, working in a university. I&apos;m a:
         </Paragraph>
         <Heading
           as="h4"
