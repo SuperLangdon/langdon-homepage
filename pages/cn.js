@@ -207,7 +207,7 @@ const Home = () => (
           <UseText>Ubuntu 20.04.6 LTS (Focal Fossa)</UseText>
           <UseText>Debian 11.5 &quot;bullseye&quot;</UseText>
           <UseText>macOS Ventura [13.6.4]</UseText>
-          <UseText>iOS 17.3 (21D50)</UseText>
+          <UseText>iPad OS 17.3 (21D50)</UseText>
           <UseText>LineageOS 20 (Android 13)</UseText>
           <UseText>Xiaomi HyperOS 1.0 (Android 14)</UseText>
         </UseSection>
@@ -218,7 +218,10 @@ const Home = () => (
           <UseText>耳机 - 拜亚动力 谢兰图</UseText>
           <UseText>麦克风 - 雷蛇魔音海妖 V2 专业版</UseText>
           <UseText>显示器 - LG UltraGear 27GL850</UseText>
-          <UseText>笔记本 - 拯救者 Y9000P</UseText>
+          <UseText>
+            笔记本 - 联想拯救者 Y9000P & MacBook Pro (15 英寸, 2017)
+          </UseText>
+          <UseText>工作站 - 戴尔 Precision T7810</UseText>
           <UseText>手机 - 小米 13 Ultra</UseText>
           <UseText>平板电脑 - iPad (第八代)</UseText>
           <UseText>相机 - 索尼 Cyber-shot DSC-RX100 II</UseText>

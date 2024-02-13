@@ -227,7 +227,7 @@ const Home = () => (
           <UseText>Ubuntu 20.04.6 LTS (Focal Fossa)</UseText>
           <UseText>Debian 11.5 &quot;bullseye&quot;</UseText>
           <UseText>macOS Ventura [13.6.4]</UseText>
-          <UseText>iOS 17.3 (21D50)</UseText>
+          <UseText>iPad OS 17.3 (21D50)</UseText>
           <UseText>LineageOS 20 (Android 13)</UseText>
           <UseText>Xiaomi HyperOS 1.0 (Android 14)</UseText>
         </UseSection>
@@ -238,7 +238,10 @@ const Home = () => (
           <UseText>Headphone - Beyerdynamic Xelento</UseText>
           <UseText>Microphone - Razer Seiren V2 Pro</UseText>
           <UseText>Monitor - LG UltraGear 27GL850</UseText>
-          <UseText>Laptop - Lenovo Legion Y9000P</UseText>
+          <UseText>
+            Laptop - Lenovo Legion Y9000P & MacBook Pro (15-inch, 2017)
+          </UseText>
+          <UseText>Workstation - Dell Precision T7810</UseText>
           <UseText>Phone - Xiaomi 13 Ultra</UseText>
           <UseText>Tablet - iPad (8th Gen)</UseText>
           <UseText>Camera - Sony Cyber-shot DSC-RX100 II</UseText>
