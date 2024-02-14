@@ -4,13 +4,13 @@ import styled from '@emotion/styled'
 export const UseSection = styled(Box)`
   padding-left: 3.4em;
   text-indent: -3.4em;
-  font-family: 'Noto Sans Simplified Chinese';
+  font-family: 'Noto Sans', 'Noto Sans Simplified Chinese';
 `
 export const UseText = styled.span`
   display: block;
   padding-left: 3.4em;
   text-indent: -3.4em;
-  font-family: 'Noto Sans Simplified Chinese';
+  font-family: 'Noto Sans', 'Noto Sans Simplified Chinese';
 `
 
 export const UseTitle = styled.span`
