@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 const Paragraph = styled.p`
-  text-align: justify;
+  text-align: left;
   text-indent: 1em;
   hyphens: auto;
   font-family: 'Noto Sans', 'Noto Sans Simplified Chinese';
