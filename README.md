@@ -27,11 +27,15 @@ $PROJECT_ROOT
 ## What's New?
 
 - Larger canvas to fit more content.
-- Redesigned About section - write more about self in a more formal manner.
-- Logo is now in the form of a font.
+- Redesigned head section - more formal introduction of oneself.
+- Removed the 3D model on head.
+- Logo on navbar is a customizable font format now.
 - Added a language toggle button.
-- Second language page.
-- Added a tags component.
+- Added zh-cn page.
+- Added a tags&uses component.
+- Added more iconfonts.
+- Style modifications & performance optimizations.
+- More...
 
 ## License
 
@@ -44,3 +48,5 @@ Check out [LICENSE](./LICENSE) for more detail.
 - [Takuya Matsuyama (craftdog)](https://www.craftz.dog/) for creating the template [craftzdog-homepage](https://github.com/craftzdog/craftzdog-homepage) .
 
 - [Reorx’s Forge](https://reorx.com/) for inspired me.
+
+- [Blair Noctis](https://ncts.me/) for endure my noob questions :)
